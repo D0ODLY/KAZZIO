@@ -45,8 +45,8 @@
             this.gunaButton15 = new Guna.UI.WinForms.GunaButton();
             this.gunaButton16 = new Guna.UI.WinForms.GunaButton();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.gunaButton17 = new Guna.UI.WinForms.GunaButton();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -464,20 +464,6 @@
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseMove);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Transparent;
-            this.label1.Location = new System.Drawing.Point(170, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(206, 30);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "KAZZIO\'s Script Hub";
-            this.label1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.label1_MouseDown);
-            this.label1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label1_MouseMove);
-            // 
             // gunaButton17
             // 
             this.gunaButton17.Animated = true;
@@ -496,13 +482,27 @@
             this.gunaButton17.Name = "gunaButton17";
             this.gunaButton17.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
             this.gunaButton17.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton17.OnHoverForeColor = System.Drawing.Color.White;
+            this.gunaButton17.OnHoverForeColor = System.Drawing.Color.Wheat;
             this.gunaButton17.OnHoverImage = null;
             this.gunaButton17.OnPressedColor = System.Drawing.Color.Black;
             this.gunaButton17.Size = new System.Drawing.Size(32, 31);
             this.gunaButton17.TabIndex = 24;
             this.gunaButton17.Text = "X";
             this.gunaButton17.Click += new System.EventHandler(this.gunaButton17_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Transparent;
+            this.label1.Location = new System.Drawing.Point(170, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(206, 30);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "KAZZIO\'s Script Hub";
+            this.label1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.label1_MouseDown);
+            this.label1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label1_MouseMove);
             // 
             // ScriptHub
             // 

@@ -24,7 +24,7 @@ namespace KAZZIO
 
         private void gunaButton17_Click(object sender, EventArgs e)
         {
-          
+            this.Close();
         }
 
         private void gunaButton16_Click(object sender, EventArgs e)
