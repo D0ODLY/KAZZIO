@@ -1,6 +1,6 @@
 ﻿namespace KAZZIO
 {
-    partial class Form1
+    partial class FrmInicial
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmInicial));
             this.panel1 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.gunaButton9 = new Guna.UI.WinForms.GunaButton();
@@ -73,14 +73,15 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Chiller", 15F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(114, 23);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(32, 21);
+            this.label2.Size = new System.Drawing.Size(34, 23);
             this.label2.TabIndex = 16;
             this.label2.Text = "V.4";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             this.label2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.label2_MouseDown);
             this.label2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label2_MouseMove);
             // 
@@ -411,7 +412,11 @@
         '\'',
         '\''};
             this.fastColoredTextBox1.AutoIndentCharsPatterns = "\r\n^\\s*[\\w\\.]+(\\s\\w+)?\\s*(?<range>=)\\s*(?<range>.+)\r\n";
+<<<<<<< HEAD:KAZZIO/Form1.Designer.cs
             this.fastColoredTextBox1.AutoScrollMinSize = new System.Drawing.Size(363, 140);
+=======
+            this.fastColoredTextBox1.AutoScrollMinSize = new System.Drawing.Size(363, 154);
+>>>>>>> e717cb8c909a9f9b6f48f7c02069f237b78ac0b3:KAZZIO/FrmInicial.Designer.cs
             this.fastColoredTextBox1.BackBrush = null;
             this.fastColoredTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.fastColoredTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -443,6 +448,7 @@
             this.fastColoredTextBox1.Text = "                   Welcome to KAZZIO V.4!\r\n\r\nWhat\'s new?\r\n\r\n-New loadout\r\n-New Bu" +
     "ttons\r\n-New features\r\n-New Scripts\r\n\r\nEnjoy!";
             this.fastColoredTextBox1.Zoom = 100;
+            this.fastColoredTextBox1.Load += new System.EventHandler(this.fastColoredTextBox1_Load);
             // 
             // listBox1
             // 
@@ -483,6 +489,7 @@
             this.gunaButton11.Text = "Refresh";
             this.gunaButton11.Click += new System.EventHandler(this.gunaButton11_Click);
             // 
+<<<<<<< HEAD:KAZZIO/Form1.Designer.cs
             // gunaButton13
             // 
             this.gunaButton13.Animated = true;
@@ -510,6 +517,9 @@
             this.gunaButton13.Click += new System.EventHandler(this.gunaButton13_Click);
             // 
             // Form1
+=======
+            // FrmInicial
+>>>>>>> e717cb8c909a9f9b6f48f7c02069f237b78ac0b3:KAZZIO/FrmInicial.Designer.cs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -528,7 +538,7 @@
             this.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "Form1";
+            this.Name = "FrmInicial";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);

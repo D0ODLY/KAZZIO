@@ -12,7 +12,12 @@ namespace KAZZIO
     {
         public static void PopulateListBox(ListBox lsb, string Folder, string FileType)
         {
-            DirectoryInfo dinfo = new DirectoryInfo(Folder);
+            string dir = @"C:\Scripts";
+            if (!Directory.Exists(dir))
+            {
+                Directory.CreateDirectory(dir);
+            }
+            DirectoryInfo dinfo = new DirectoryInfo(dir);
             FileInfo[] Files = dinfo.GetFiles(FileType);
             foreach (FileInfo file in Files)
             {

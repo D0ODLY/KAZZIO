@@ -12,10 +12,10 @@ using WeAreDevs_API;
 
 namespace KAZZIO
 {
-    public partial class Form1 : Form
+    public partial class FrmInicial : Form
     {
         ExploitAPI module = new ExploitAPI();
-        public Form1()
+        public FrmInicial()
         {
             InitializeComponent();
         }
@@ -100,8 +100,8 @@ namespace KAZZIO
         private void Form1_Load(object sender, EventArgs e)
         {
             listBox1.Items.Clear();//Clear Items in the LuaScriptList
-            Functions.PopulateListBox(listBox1, "./Scripts", "*.txt");
-            Functions.PopulateListBox(listBox1, "./Scripts", "*.lua");
+            Functions.PopulateListBox(listBox1, "C:/Scripts/", "*.txt");
+            Functions.PopulateListBox(listBox1, "C:/Scripts/", "*.lua");
         }
 
         private void gunaButton1_Click(object sender, EventArgs e)
@@ -111,19 +111,21 @@ namespace KAZZIO
 
         private void gunaButton6_Click(object sender, EventArgs e)
         {
+#pragma warning disable CS0618 // Type or member is obsolete
             module.SendLimitedLuaScript(fastColoredTextBox1.Text);
+#pragma warning restore CS0618 // Type or member is obsolete
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            fastColoredTextBox1.Text = File.ReadAllText($"./Scripts/{listBox1.SelectedItem}");
+            fastColoredTextBox1.Text = File.ReadAllText ($"C:/Scripts/{listBox1.SelectedItem}");
         }
 
         private void gunaButton11_Click(object sender, EventArgs e)
         {
             listBox1.Items.Clear();//Clear Items in the LuaScriptList
-            Functions.PopulateListBox(listBox1, "./Scripts", "*.txt");
-            Functions.PopulateListBox(listBox1, "./Scripts", "*.lua");
+            Functions.PopulateListBox(listBox1, "C:/Scripts/", "*.txt");
+            Functions.PopulateListBox(listBox1, "C:/Scripts/", "*.lua");
         }
 
         private void gunaButton3_Click(object sender, EventArgs e)
@@ -149,6 +151,7 @@ namespace KAZZIO
             }
         }
 
+<<<<<<< HEAD:KAZZIO/Form1.cs
         private void gunaButton8_Click(object sender, EventArgs e)
         {
             Settings openform = new Settings();
@@ -164,6 +167,16 @@ namespace KAZZIO
         private void gunaButton13_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("https://discord.com");
+=======
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void fastColoredTextBox1_Load(object sender, EventArgs e)
+        {
+
+>>>>>>> e717cb8c909a9f9b6f48f7c02069f237b78ac0b3:KAZZIO/FrmInicial.cs
         }
     }
 }
