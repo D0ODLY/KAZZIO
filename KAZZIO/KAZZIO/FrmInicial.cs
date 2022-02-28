@@ -151,23 +151,6 @@ namespace KAZZIO
             }
         }
 
-<<<<<<< HEAD:KAZZIO/Form1.cs
-        private void gunaButton8_Click(object sender, EventArgs e)
-        {
-            Settings openform = new Settings();
-            openform.Show();
-        }
-
-        private void gunaButton12_Click(object sender, EventArgs e)
-        {
-            info openform = new info();
-            openform.Show();
-        }
-
-        private void gunaButton13_Click(object sender, EventArgs e)
-        {
-            System.Diagnostics.Process.Start("https://discord.com");
-=======
         private void label2_Click(object sender, EventArgs e)
         {
 
@@ -176,7 +159,6 @@ namespace KAZZIO
         private void fastColoredTextBox1_Load(object sender, EventArgs e)
         {
 
->>>>>>> e717cb8c909a9f9b6f48f7c02069f237b78ac0b3:KAZZIO/FrmInicial.cs
         }
     }
 }

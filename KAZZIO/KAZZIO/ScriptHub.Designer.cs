@@ -45,13 +45,8 @@
             this.gunaButton15 = new Guna.UI.WinForms.GunaButton();
             this.gunaButton16 = new Guna.UI.WinForms.GunaButton();
             this.panel1 = new System.Windows.Forms.Panel();
-<<<<<<< HEAD
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-=======
             this.gunaButton17 = new Guna.UI.WinForms.GunaButton();
             this.label1 = new System.Windows.Forms.Label();
->>>>>>> e717cb8c909a9f9b6f48f7c02069f237b78ac0b3
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -460,7 +455,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.gunaButton17);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -469,34 +464,6 @@
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseMove);
             // 
-<<<<<<< HEAD
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Transparent;
-            this.label1.Location = new System.Drawing.Point(170, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(206, 30);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "KAZZIO\'s Script Hub";
-            this.label1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.label1_MouseDown);
-            this.label1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label1_MouseMove);
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(506, 6);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(30, 28);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "X";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-=======
             // gunaButton17
             // 
             this.gunaButton17.Animated = true;
@@ -522,7 +489,6 @@
             this.gunaButton17.TabIndex = 24;
             this.gunaButton17.Text = "X";
             this.gunaButton17.Click += new System.EventHandler(this.gunaButton17_Click);
->>>>>>> e717cb8c909a9f9b6f48f7c02069f237b78ac0b3
             // 
             // label1
             // 
@@ -542,7 +508,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
             this.ClientSize = new System.Drawing.Size(543, 295);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.gunaButton16);
@@ -590,7 +556,7 @@
         private Guna.UI.WinForms.GunaButton gunaButton15;
         private Guna.UI.WinForms.GunaButton gunaButton16;
         private System.Windows.Forms.Panel panel1;
+        private Guna.UI.WinForms.GunaButton gunaButton17;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
     }
 }
