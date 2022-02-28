@@ -160,5 +160,21 @@ namespace KAZZIO
         {
 
         }
+
+        private void gunaButton8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gunaButton13_Click(object sender, EventArgs e)
+        {
+            info openform = new info();
+            openform.Show();
+        }
+
+        private void gunaButton12_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://discord.gg/3XABg3bsaB");
+        }
     }
 }
