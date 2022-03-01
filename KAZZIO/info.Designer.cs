@@ -188,6 +188,7 @@
             this.gunaButton17.Size = new System.Drawing.Size(32, 31);
             this.gunaButton17.TabIndex = 25;
             this.gunaButton17.Text = "X";
+            this.gunaButton17.Click += new System.EventHandler(this.gunaButton17_Click);
             // 
             // info
             // 

@@ -35,5 +35,10 @@ namespace KAZZIO
             else
                 TopMost = false;
         }
+
+        private void gunaButton17_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

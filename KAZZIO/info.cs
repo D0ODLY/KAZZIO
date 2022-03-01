@@ -22,11 +22,6 @@ namespace KAZZIO
 
         }
 
-        private void gunaButton17_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
         private void gunaPanel3_Paint(object sender, PaintEventArgs e)
         {
 
@@ -49,6 +44,11 @@ namespace KAZZIO
         private void info_MouseDown(object sender, MouseEventArgs e)
         {
             lastPoint = new Point(e.X, e.Y);
+        }
+
+        private void gunaButton17_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
