@@ -15,6 +15,7 @@ namespace KAZZIO
     public partial class FrmInicial : Form
     {
         ExploitAPI module = new ExploitAPI();
+        public class Globlas
         public FrmInicial()
         {
             InitializeComponent();
@@ -106,7 +107,7 @@ namespace KAZZIO
 
         private void gunaButton1_Click(object sender, EventArgs e)
         {
-            module.LaunchExploit();
+                module.LaunchExploit();
         }
 
         private void gunaButton6_Click(object sender, EventArgs e)
@@ -157,6 +158,11 @@ namespace KAZZIO
         }
 
         private void fastColoredTextBox1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gunaButton5_Click(object sender, EventArgs e)
         {
 
         }
