@@ -15,6 +15,10 @@ namespace KAZZIO
     public partial class FrmInicial : Form
     {
         ExploitAPI module = new ExploitAPI();
+        public static class globals
+        {
+            public static bool injected = false;
+        }
         public FrmInicial()
         {
             InitializeComponent();
@@ -107,13 +111,21 @@ namespace KAZZIO
         private void gunaButton1_Click(object sender, EventArgs e)
         {
             module.LaunchExploit();
+            globals.injected = true;
         }
 
         private void gunaButton6_Click(object sender, EventArgs e)
         {
+            if (globals.injected)
+            {
 #pragma warning disable CS0618 // Type or member is obsolete
-            module.SendLimitedLuaScript(fastColoredTextBox1.Text);
+                module.SendLimitedLuaScript(fastColoredTextBox1.Text);
 #pragma warning restore CS0618 // Type or member is obsolete
+            }
+            else
+            {
+                MessageBox.Show("You have to inject first!","Executor not injected...",MessageBoxButtons.OK,MessageBoxIcon.Warning);
+            }
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
