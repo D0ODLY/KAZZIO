@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Bunifu;
 
 namespace KAZZIO
 {
@@ -15,6 +16,24 @@ namespace KAZZIO
         public options()
         {
             InitializeComponent();
+        }
+
+        private void gunaButton17_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void options_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuToggleSwitch1_CheckedChanged(object sender, Bunifu.UI.WinForms.BunifuToggleSwitch.CheckedChangedEventArgs e)
+        {
+            if (bunifuToggleSwitch1.Value == true)
+                TopMost = true;
+            else
+                TopMost = false;
         }
     }
 }
