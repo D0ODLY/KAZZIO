@@ -32,6 +32,7 @@ namespace KAZZIO
         {
             if (bunifuToggleSwitch1.Value == true)
                 TopMost = true;
+            
             else
                 TopMost = false;
         }

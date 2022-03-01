@@ -118,18 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="bunifuToggleSwitch1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAACgAAAAUCAYAAAD/Rn+7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAE+SURBVEhLzZYvbwJBEEdPIiuR/Qh8jCqCRNY0QfYj4HEI
-        PJoEV3l3EonEkdRSkkL41xTRvh8syXJMqsrdTPKSuZu53ZddyG5iRZ7ndWhnWdaDKfnPPdDYMCB/hscw
-        /d9B4wss+XCtQcogTdMN832Sd4PGbVB8oGkCq/jjMmHuLczIb1dTcsUPKuQdakHtvK1VrlwRtvyAT/8i
-        pz/EMm7wAIJyakiww8MuLnoBr55+e0Or6AHcJhKcW0UP4LbXFptFL/gXZBk/rIIHcDtK8M0qegC3mbb4
-        leSrWPQAXgMJNkjcnCIXglPrdJrw0NfxUmyqEpyyk5yCFzXQAW02lw1uuurVg945eKGtXsB33Fw2kmM3
-        m0HrOmjQnXAMujyaA9wLiYGufNcrZwVNTzQPQZdHc8D/gjnmMCJvh+mjSJJfaY9cGH6e31AAAAAASUVO
-        RK5CYII=
-</value>
-  </data>
   <data name="gunaButton12.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAPjVJREFUeF7t

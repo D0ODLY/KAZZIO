@@ -357,7 +357,6 @@
             // 
             // Logo
             // 
-            this.Logo.Image = global::KAZZIO.Properties.Resources.kazzio;
             this.Logo.Location = new System.Drawing.Point(0, 0);
             this.Logo.Name = "Logo";
             this.Logo.Size = new System.Drawing.Size(100, 50);

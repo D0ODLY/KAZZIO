@@ -175,8 +175,6 @@ namespace KAZZIO
 
         private void gunaButton8_Click(object sender, EventArgs e)
         {
-            options openform = new options();
-            openform.Show();
         }
 
         private void gunaButton13_Click(object sender, EventArgs e)
@@ -190,12 +188,13 @@ namespace KAZZIO
             System.Diagnostics.Process.Start("https://discord.gg/jrCh7ANX7g");
         }
 
-        private void bunifuToggleSwitch1_CheckedChanged(object sender, Bunifu.UI.WinForms.BunifuToggleSwitch.CheckedChangedEventArgs e)
+        private void label3_Click(object sender, EventArgs e)
         {
-            if (bunifuToggleSwitch1.Value == true)
-                TopMost = true;
-            else
-                TopMost = false;
+
+        }
+
+        private void gunaButton5_Click(object sender, EventArgs e)
+        {
         }
     }
 }
