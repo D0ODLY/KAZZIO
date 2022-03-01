@@ -23,7 +23,7 @@ namespace KAZZIO
         private void gunaButton4_Click(object sender, EventArgs e)
         {
             WebClient wb = new WebClient();
-            string Script = wb.DownloadString("link");
+            string Script = wb.DownloadString("https://raw.githubusercontent.com/x3fall3nangel/RobloxScript/main/Anime%20Battlegrounds%20X.lua");
             module.SendLuaScript(Script);
         }
 
@@ -35,7 +35,7 @@ namespace KAZZIO
         private void gunaButton16_Click(object sender, EventArgs e)
         {
             WebClient wb = new WebClient();
-            string Script = wb.DownloadString("link");
+            string Script = wb.DownloadString("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt");
             module.SendLuaScript(Script);
         }
 
@@ -75,28 +75,28 @@ namespace KAZZIO
         private void gunaButton3_Click(object sender, EventArgs e)
         {
             WebClient wb = new WebClient();
-            string Script = wb.DownloadString("link");
+            string Script = wb.DownloadString("https://raw.githubusercontent.com/Whybiee/Roblox-scripts/main/Anime%20Punching%20Simulator.lua");
             module.SendLuaScript(Script);
         }
 
         private void gunaButton2_Click(object sender, EventArgs e)
         {
             WebClient wb = new WebClient();
-            string Script = wb.DownloadString("link");
+            string Script = wb.DownloadString("https://raw.githubusercontent.com/fusiongreg/BoltsHubV5/main/BoltsHubV5");
             module.SendLuaScript(Script);
         }
 
         private void gunaButton13_Click(object sender, EventArgs e)
         {
             WebClient wb = new WebClient();
-            string Script = wb.DownloadString("link");
+            string Script = wb.DownloadString("https://raw.githubusercontent.com/LeoKholYt/roblox/main/carcrushers2_lkhub.lua");
             module.SendLuaScript(Script);
         }
 
         private void gunaButton1_Click(object sender, EventArgs e)
         {
             WebClient wb = new WebClient();
-            string Script = wb.DownloadString("link");
+            string Script = wb.DownloadString("https://raw.githubusercontent.com/Pawel12d/hexagon/main/scripts/CounterBlox.lua");
             module.SendLuaScript(Script);
         }
 
@@ -110,14 +110,14 @@ namespace KAZZIO
         private void gunaButton6_Click(object sender, EventArgs e)
         {
             WebClient wb = new WebClient();
-            string Script = wb.DownloadString("link");
+            string Script = wb.DownloadString("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source");
             module.SendLuaScript(Script);
         }
 
         private void gunaButton7_Click(object sender, EventArgs e)
         {
             WebClient wb = new WebClient();
-            string Script = wb.DownloadString("link");
+            string Script = wb.DownloadString("https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub");
             module.SendLuaScript(Script);
         }
 
