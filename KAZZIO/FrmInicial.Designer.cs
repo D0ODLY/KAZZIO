@@ -37,7 +37,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.gunaButton13 = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton12 = new Guna.UI.WinForms.GunaButton();
             this.gunaButton8 = new Guna.UI.WinForms.GunaButton();
             this.gunaButton7 = new Guna.UI.WinForms.GunaButton();
             this.gunaButton5 = new Guna.UI.WinForms.GunaButton();
@@ -49,9 +48,12 @@
             this.fastColoredTextBox1 = new FastColoredTextBoxNS.FastColoredTextBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.gunaButton11 = new Guna.UI.WinForms.GunaButton();
+            this.gunaButton12 = new Guna.UI.WinForms.GunaButton();
+            this.Logo = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.fastColoredTextBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Logo)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -75,7 +77,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(123, 26);
+            this.label2.Location = new System.Drawing.Point(127, 29);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(33, 21);
@@ -144,7 +146,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(12, 8);
+            this.label1.Location = new System.Drawing.Point(13, 7);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(121, 36);
@@ -157,6 +159,7 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.panel2.Controls.Add(this.gunaButton13);
+            this.panel2.Controls.Add(this.Logo);
             this.panel2.Controls.Add(this.gunaButton12);
             this.panel2.Controls.Add(this.gunaButton8);
             this.panel2.Controls.Add(this.gunaButton7);
@@ -193,32 +196,6 @@
             this.gunaButton13.TabIndex = 14;
             this.gunaButton13.Text = "";
             this.gunaButton13.Click += new System.EventHandler(this.gunaButton13_Click);
-            // 
-            // gunaButton12
-            // 
-            this.gunaButton12.Animated = true;
-            this.gunaButton12.AnimationHoverSpeed = 0.05F;
-            this.gunaButton12.AnimationSpeed = 0.01F;
-            this.gunaButton12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.gunaButton12.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.gunaButton12.BorderColor = System.Drawing.Color.Black;
-            this.gunaButton12.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton12.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton12.Font = new System.Drawing.Font("Segoe UI Emoji", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaButton12.ForeColor = System.Drawing.Color.White;
-            this.gunaButton12.Image = ((System.Drawing.Image)(resources.GetObject("gunaButton12.Image")));
-            this.gunaButton12.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton12.Location = new System.Drawing.Point(6, 113);
-            this.gunaButton12.Margin = new System.Windows.Forms.Padding(4);
-            this.gunaButton12.Name = "gunaButton12";
-            this.gunaButton12.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.gunaButton12.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton12.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton12.OnHoverImage = null;
-            this.gunaButton12.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton12.Size = new System.Drawing.Size(42, 36);
-            this.gunaButton12.TabIndex = 13;
-            this.gunaButton12.Click += new System.EventHandler(this.gunaButton12_Click);
             // 
             // gunaButton8
             // 
@@ -517,6 +494,42 @@
             this.gunaButton11.Text = "Refresh";
             this.gunaButton11.Click += new System.EventHandler(this.gunaButton11_Click);
             // 
+            // gunaButton12
+            // 
+            this.gunaButton12.Animated = true;
+            this.gunaButton12.AnimationHoverSpeed = 0.05F;
+            this.gunaButton12.AnimationSpeed = 0.01F;
+            this.gunaButton12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.gunaButton12.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.gunaButton12.BorderColor = System.Drawing.Color.Black;
+            this.gunaButton12.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.gunaButton12.FocusedColor = System.Drawing.Color.Empty;
+            this.gunaButton12.Font = new System.Drawing.Font("Segoe UI Emoji", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaButton12.ForeColor = System.Drawing.Color.White;
+            this.gunaButton12.Image = ((System.Drawing.Image)(resources.GetObject("gunaButton12.Image")));
+            this.gunaButton12.ImageSize = new System.Drawing.Size(20, 20);
+            this.gunaButton12.Location = new System.Drawing.Point(6, 113);
+            this.gunaButton12.Margin = new System.Windows.Forms.Padding(4);
+            this.gunaButton12.Name = "gunaButton12";
+            this.gunaButton12.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.gunaButton12.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.gunaButton12.OnHoverForeColor = System.Drawing.Color.White;
+            this.gunaButton12.OnHoverImage = null;
+            this.gunaButton12.OnPressedColor = System.Drawing.Color.Black;
+            this.gunaButton12.Size = new System.Drawing.Size(42, 36);
+            this.gunaButton12.TabIndex = 13;
+            this.gunaButton12.Click += new System.EventHandler(this.gunaButton12_Click);
+            // 
+            // Logo
+            // 
+            this.Logo.Image = global::KAZZIO.Properties.Resources.kazzio;
+            this.Logo.Location = new System.Drawing.Point(5, 13);
+            this.Logo.Name = "Logo";
+            this.Logo.Size = new System.Drawing.Size(44, 30);
+            this.Logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.Logo.TabIndex = 26;
+            this.Logo.TabStop = false;
+            // 
             // FrmInicial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
@@ -546,6 +559,7 @@
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.fastColoredTextBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Logo)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -571,6 +585,7 @@
         private Guna.UI.WinForms.GunaButton gunaButton11;
         private Guna.UI.WinForms.GunaButton gunaButton13;
         private Guna.UI.WinForms.GunaButton gunaButton12;
+        private System.Windows.Forms.PictureBox Logo;
     }
 }
 
