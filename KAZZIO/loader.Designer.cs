@@ -118,7 +118,7 @@
             this.btnLogin.Location = new System.Drawing.Point(102, 327);
             this.btnLogin.Margin = new System.Windows.Forms.Padding(4);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.btnLogin.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
             this.btnLogin.OnHoverBorderColor = System.Drawing.Color.Black;
             this.btnLogin.OnHoverForeColor = System.Drawing.Color.White;
             this.btnLogin.OnHoverImage = null;
@@ -207,7 +207,7 @@
             this.txtpassword.IconRight = null;
             this.txtpassword.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txtpassword.Lines = new string[0];
-            this.txtpassword.Location = new System.Drawing.Point(106, 229);
+            this.txtpassword.Location = new System.Drawing.Point(102, 228);
             this.txtpassword.MaxLength = 32767;
             this.txtpassword.MinimumSize = new System.Drawing.Size(1, 1);
             this.txtpassword.Modified = false;
@@ -294,7 +294,7 @@
             this.txtusername.IconRight = null;
             this.txtusername.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.txtusername.Lines = new string[0];
-            this.txtusername.Location = new System.Drawing.Point(108, 159);
+            this.txtusername.Location = new System.Drawing.Point(102, 160);
             this.txtusername.MaxLength = 32767;
             this.txtusername.MinimumSize = new System.Drawing.Size(1, 1);
             this.txtusername.Modified = false;
@@ -344,7 +344,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::KAZZIO.Properties.Resources.username;
-            this.pictureBox1.Location = new System.Drawing.Point(50, 156);
+            this.pictureBox1.Location = new System.Drawing.Point(40, 156);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(52, 44);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -354,7 +354,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::KAZZIO.Properties.Resources.password;
-            this.pictureBox2.Location = new System.Drawing.Point(50, 225);
+            this.pictureBox2.Location = new System.Drawing.Point(40, 225);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(52, 43);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -382,6 +382,7 @@
             this.Controls.Add(this.pictureBox2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "loader";
+            this.Opacity = 0.98D;
             this.Text = "loader";
             this.Load += new System.EventHandler(this.loader_Load);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.loader_MouseDown);

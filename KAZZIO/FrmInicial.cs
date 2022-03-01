@@ -97,6 +97,8 @@ namespace KAZZIO
 
         private void gunaButton7_Click(object sender, EventArgs e)
         {
+            SidePanel.Height = gunaButton7.Height;
+            SidePanel.Top = gunaButton7.Top;
             ScriptHub openform = new ScriptHub();
             openform.Show();
         }
@@ -175,12 +177,16 @@ namespace KAZZIO
 
         private void gunaButton8_Click(object sender, EventArgs e)
         {
+            SidePanel.Height = gunaButton8.Height;
+            SidePanel.Top = gunaButton8.Top;
             options openform = new options();
             openform.Show();
         }
 
         private void gunaButton13_Click(object sender, EventArgs e)
         {
+            SidePanel.Height = gunaButton13.Height;
+            SidePanel.Top = gunaButton13.Top;
             info openform = new info();
             openform.Show();
         }
@@ -197,6 +203,15 @@ namespace KAZZIO
 
         private void gunaButton5_Click(object sender, EventArgs e)
         {
+            SidePanel.Height = gunaButton5.Height;
+            SidePanel.Top = gunaButton5.Top;
+            this.Show();
+
+        }
+
+        private void SidePanel_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
