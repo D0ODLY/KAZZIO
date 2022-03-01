@@ -207,6 +207,7 @@ namespace KAZZIO
             SidePanel.Top = gunaButton5.Top;
             this.Show();
 
+
         }
 
         private void SidePanel_Paint(object sender, PaintEventArgs e)

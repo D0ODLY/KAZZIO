@@ -29,7 +29,7 @@ namespace KAZZIO
         }
 
         private void bunifuToggleSwitch1_CheckedChanged(object sender, Bunifu.UI.WinForms.BunifuToggleSwitch.CheckedChangedEventArgs e)
-        {
+        {  
             if (bunifuToggleSwitch1.Value == true)
                 TopMost = true;
             
@@ -49,7 +49,8 @@ namespace KAZZIO
 
         private void gunaButton1_Click(object sender, EventArgs e)
         { 
-            
+            loader f1 = new loader();
+            f1.Show();
         }
       }
     }

@@ -74,7 +74,7 @@
             this.Logo.Image = global::KAZZIO.Properties.Resources.kazzio1;
             this.Logo.Location = new System.Drawing.Point(0, 0);
             this.Logo.Name = "Logo";
-            this.Logo.Size = new System.Drawing.Size(61, 45);
+            this.Logo.Size = new System.Drawing.Size(52, 45);
             this.Logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Logo.TabIndex = 31;
             this.Logo.TabStop = false;

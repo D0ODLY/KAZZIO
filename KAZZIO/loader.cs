@@ -34,7 +34,7 @@ namespace KAZZIO
 
         private void gunaButton3_Click(object sender, EventArgs e)
         {
-             if (txtusername.Text=="Username" && txtpassword.Text=="Password")
+             if (txtusername.Text=="KAZZIO" && txtpassword.Text=="KAZZIO")
              {
                 new FrmInicial().Show();
                 this.Hide();
@@ -71,6 +71,30 @@ namespace KAZZIO
         private void cbrememberme_CheckedChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void gunaButton1_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://discord.gg/jrCh7ANX7g");
+        }
+
+        private void gunaCirclePictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gunaCirclePictureBox2_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                this.Left += e.X - lastPoint.X;
+                this.Top += e.Y - lastPoint.Y;
+            }
+        }
+
+        private void gunaCirclePictureBox2_MouseDown(object sender, MouseEventArgs e)
+        {
+            lastPoint = new Point(e.X, e.Y);
         }
     }
 }

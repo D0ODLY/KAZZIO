@@ -30,14 +30,14 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(loader));
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties3 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties4 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties5 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties6 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties7 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties8 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties41 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties42 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties43 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties44 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties45 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties46 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties47 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties48 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             this.gunaElipse1 = new Guna.UI.WinForms.GunaElipse(this.components);
             this.btnExit = new Guna.UI.WinForms.GunaButton();
             this.label1 = new System.Windows.Forms.Label();
@@ -45,6 +45,7 @@
             this.cbrememberme = new Guna.UI.WinForms.GunaCheckBox();
             this.gunaElipsePanel1 = new Guna.UI.WinForms.GunaElipsePanel();
             this.gunaElipsePanel2 = new Guna.UI.WinForms.GunaElipsePanel();
+            this.gunaButton1 = new Guna.UI.WinForms.GunaButton();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.txtpassword = new Bunifu.UI.WinForms.BunifuTextBox();
@@ -161,6 +162,34 @@
             this.gunaElipsePanel2.Size = new System.Drawing.Size(207, 3);
             this.gunaElipsePanel2.TabIndex = 30;
             // 
+            // gunaButton1
+            // 
+            this.gunaButton1.Animated = true;
+            this.gunaButton1.AnimationHoverSpeed = 0.05F;
+            this.gunaButton1.AnimationSpeed = 0.01F;
+            this.gunaButton1.BackColor = System.Drawing.Color.Transparent;
+            this.gunaButton1.BackgroundImage = global::KAZZIO.Properties.Resources.icons8_discord_new_64;
+            this.gunaButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.gunaButton1.BaseColor = System.Drawing.Color.Transparent;
+            this.gunaButton1.BorderColor = System.Drawing.Color.Black;
+            this.gunaButton1.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.gunaButton1.FocusedColor = System.Drawing.Color.Empty;
+            this.gunaButton1.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaButton1.ForeColor = System.Drawing.Color.White;
+            this.gunaButton1.Image = null;
+            this.gunaButton1.ImageSize = new System.Drawing.Size(20, 20);
+            this.gunaButton1.Location = new System.Drawing.Point(290, 413);
+            this.gunaButton1.Margin = new System.Windows.Forms.Padding(4);
+            this.gunaButton1.Name = "gunaButton1";
+            this.gunaButton1.OnHoverBaseColor = System.Drawing.Color.Transparent;
+            this.gunaButton1.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.gunaButton1.OnHoverForeColor = System.Drawing.Color.White;
+            this.gunaButton1.OnHoverImage = null;
+            this.gunaButton1.OnPressedColor = System.Drawing.Color.Black;
+            this.gunaButton1.Size = new System.Drawing.Size(28, 28);
+            this.gunaButton1.TabIndex = 34;
+            this.gunaButton1.Click += new System.EventHandler(this.gunaButton1_Click);
+            // 
             // pictureBox5
             // 
             this.pictureBox5.Image = global::KAZZIO.Properties.Resources.zcNQa;
@@ -213,26 +242,26 @@
             this.txtpassword.Modified = false;
             this.txtpassword.Multiline = false;
             this.txtpassword.Name = "txtpassword";
-            stateProperties1.BorderColor = System.Drawing.Color.Transparent;
-            stateProperties1.FillColor = System.Drawing.Color.Empty;
-            stateProperties1.ForeColor = System.Drawing.Color.Empty;
-            stateProperties1.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txtpassword.OnActiveState = stateProperties1;
-            stateProperties2.BorderColor = System.Drawing.Color.Transparent;
-            stateProperties2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties2.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.txtpassword.OnDisabledState = stateProperties2;
-            stateProperties3.BorderColor = System.Drawing.Color.Transparent;
-            stateProperties3.FillColor = System.Drawing.Color.Empty;
-            stateProperties3.ForeColor = System.Drawing.Color.Empty;
-            stateProperties3.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txtpassword.OnHoverState = stateProperties3;
-            stateProperties4.BorderColor = System.Drawing.Color.Transparent;
-            stateProperties4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            stateProperties4.ForeColor = System.Drawing.Color.BlueViolet;
-            stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txtpassword.OnIdleState = stateProperties4;
+            stateProperties41.BorderColor = System.Drawing.Color.Transparent;
+            stateProperties41.FillColor = System.Drawing.Color.Empty;
+            stateProperties41.ForeColor = System.Drawing.Color.Empty;
+            stateProperties41.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txtpassword.OnActiveState = stateProperties41;
+            stateProperties42.BorderColor = System.Drawing.Color.Transparent;
+            stateProperties42.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties42.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties42.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.txtpassword.OnDisabledState = stateProperties42;
+            stateProperties43.BorderColor = System.Drawing.Color.Transparent;
+            stateProperties43.FillColor = System.Drawing.Color.Empty;
+            stateProperties43.ForeColor = System.Drawing.Color.Empty;
+            stateProperties43.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txtpassword.OnHoverState = stateProperties43;
+            stateProperties44.BorderColor = System.Drawing.Color.Transparent;
+            stateProperties44.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            stateProperties44.ForeColor = System.Drawing.Color.BlueViolet;
+            stateProperties44.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txtpassword.OnIdleState = stateProperties44;
             this.txtpassword.Padding = new System.Windows.Forms.Padding(3);
             this.txtpassword.PasswordChar = '\0';
             this.txtpassword.PlaceholderForeColor = System.Drawing.Color.Silver;
@@ -265,6 +294,9 @@
             this.gunaCirclePictureBox2.TabIndex = 21;
             this.gunaCirclePictureBox2.TabStop = false;
             this.gunaCirclePictureBox2.UseTransfarantBackground = false;
+            this.gunaCirclePictureBox2.Click += new System.EventHandler(this.gunaCirclePictureBox2_Click);
+            this.gunaCirclePictureBox2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.gunaCirclePictureBox2_MouseDown);
+            this.gunaCirclePictureBox2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.gunaCirclePictureBox2_MouseMove);
             // 
             // txtusername
             // 
@@ -300,26 +332,26 @@
             this.txtusername.Modified = false;
             this.txtusername.Multiline = false;
             this.txtusername.Name = "txtusername";
-            stateProperties5.BorderColor = System.Drawing.Color.Transparent;
-            stateProperties5.FillColor = System.Drawing.Color.Empty;
-            stateProperties5.ForeColor = System.Drawing.Color.Empty;
-            stateProperties5.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txtusername.OnActiveState = stateProperties5;
-            stateProperties6.BorderColor = System.Drawing.Color.Transparent;
-            stateProperties6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties6.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.txtusername.OnDisabledState = stateProperties6;
-            stateProperties7.BorderColor = System.Drawing.Color.Transparent;
-            stateProperties7.FillColor = System.Drawing.Color.Empty;
-            stateProperties7.ForeColor = System.Drawing.Color.Empty;
-            stateProperties7.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txtusername.OnHoverState = stateProperties7;
-            stateProperties8.BorderColor = System.Drawing.Color.Transparent;
-            stateProperties8.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            stateProperties8.ForeColor = System.Drawing.Color.BlueViolet;
-            stateProperties8.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txtusername.OnIdleState = stateProperties8;
+            stateProperties45.BorderColor = System.Drawing.Color.Transparent;
+            stateProperties45.FillColor = System.Drawing.Color.Empty;
+            stateProperties45.ForeColor = System.Drawing.Color.Empty;
+            stateProperties45.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txtusername.OnActiveState = stateProperties45;
+            stateProperties46.BorderColor = System.Drawing.Color.Transparent;
+            stateProperties46.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties46.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties46.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.txtusername.OnDisabledState = stateProperties46;
+            stateProperties47.BorderColor = System.Drawing.Color.Transparent;
+            stateProperties47.FillColor = System.Drawing.Color.Empty;
+            stateProperties47.ForeColor = System.Drawing.Color.Empty;
+            stateProperties47.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txtusername.OnHoverState = stateProperties47;
+            stateProperties48.BorderColor = System.Drawing.Color.Transparent;
+            stateProperties48.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            stateProperties48.ForeColor = System.Drawing.Color.BlueViolet;
+            stateProperties48.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txtusername.OnIdleState = stateProperties48;
             this.txtusername.Padding = new System.Windows.Forms.Padding(3);
             this.txtusername.PasswordChar = '\0';
             this.txtusername.PlaceholderForeColor = System.Drawing.Color.Silver;
@@ -367,6 +399,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.ClientSize = new System.Drawing.Size(350, 451);
+            this.Controls.Add(this.gunaButton1);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.gunaElipsePanel2);
@@ -412,5 +445,6 @@
         private Guna.UI.WinForms.GunaElipsePanel gunaElipsePanel2;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private Guna.UI.WinForms.GunaButton gunaButton1;
     }
 }
