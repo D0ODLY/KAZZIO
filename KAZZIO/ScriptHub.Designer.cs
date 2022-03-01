@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ScriptHub));
             this.gunaButton4 = new Guna.UI.WinForms.GunaButton();
             this.gunaButton1 = new Guna.UI.WinForms.GunaButton();
             this.gunaButton2 = new Guna.UI.WinForms.GunaButton();
@@ -59,7 +60,7 @@
             this.gunaButton4.BorderColor = System.Drawing.Color.Black;
             this.gunaButton4.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaButton4.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaButton4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaButton4.ForeColor = System.Drawing.Color.White;
             this.gunaButton4.Image = null;
             this.gunaButton4.ImageSize = new System.Drawing.Size(20, 20);
@@ -71,9 +72,10 @@
             this.gunaButton4.OnHoverForeColor = System.Drawing.Color.White;
             this.gunaButton4.OnHoverImage = null;
             this.gunaButton4.OnPressedColor = System.Drawing.Color.Black;
+            this.gunaButton4.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.gunaButton4.Size = new System.Drawing.Size(109, 46);
             this.gunaButton4.TabIndex = 7;
-            this.gunaButton4.Text = "Clear";
+            this.gunaButton4.Text = "Anime Battlegrounds X";
             this.gunaButton4.Click += new System.EventHandler(this.gunaButton4_Click);
             // 
             // gunaButton1
@@ -99,7 +101,8 @@
             this.gunaButton1.OnPressedColor = System.Drawing.Color.Black;
             this.gunaButton1.Size = new System.Drawing.Size(109, 46);
             this.gunaButton1.TabIndex = 8;
-            this.gunaButton1.Text = "Clear";
+            this.gunaButton1.Text = "Counter Blox";
+            this.gunaButton1.Click += new System.EventHandler(this.gunaButton1_Click);
             // 
             // gunaButton2
             // 
@@ -124,7 +127,8 @@
             this.gunaButton2.OnPressedColor = System.Drawing.Color.Black;
             this.gunaButton2.Size = new System.Drawing.Size(109, 46);
             this.gunaButton2.TabIndex = 9;
-            this.gunaButton2.Text = "Clear";
+            this.gunaButton2.Text = "build a boat for treasure";
+            this.gunaButton2.Click += new System.EventHandler(this.gunaButton2_Click);
             // 
             // gunaButton3
             // 
@@ -149,7 +153,8 @@
             this.gunaButton3.OnPressedColor = System.Drawing.Color.Black;
             this.gunaButton3.Size = new System.Drawing.Size(109, 46);
             this.gunaButton3.TabIndex = 10;
-            this.gunaButton3.Text = "Clear";
+            this.gunaButton3.Text = "Arsenal";
+            this.gunaButton3.Click += new System.EventHandler(this.gunaButton3_Click);
             // 
             // gunaButton5
             // 
@@ -174,7 +179,8 @@
             this.gunaButton5.OnPressedColor = System.Drawing.Color.Black;
             this.gunaButton5.Size = new System.Drawing.Size(109, 46);
             this.gunaButton5.TabIndex = 11;
-            this.gunaButton5.Text = "Clear";
+            this.gunaButton5.Text = "funky friday A.P";
+            this.gunaButton5.Click += new System.EventHandler(this.gunaButton5_Click);
             // 
             // gunaButton6
             // 
@@ -199,7 +205,8 @@
             this.gunaButton6.OnPressedColor = System.Drawing.Color.Black;
             this.gunaButton6.Size = new System.Drawing.Size(109, 46);
             this.gunaButton6.TabIndex = 12;
-            this.gunaButton6.Text = "Clear";
+            this.gunaButton6.Text = "Infinite Yield";
+            this.gunaButton6.Click += new System.EventHandler(this.gunaButton6_Click);
             // 
             // gunaButton7
             // 
@@ -224,7 +231,7 @@
             this.gunaButton7.OnPressedColor = System.Drawing.Color.Black;
             this.gunaButton7.Size = new System.Drawing.Size(109, 46);
             this.gunaButton7.TabIndex = 13;
-            this.gunaButton7.Text = "Clear";
+            this.gunaButton7.Click += new System.EventHandler(this.gunaButton7_Click);
             // 
             // gunaButton8
             // 
@@ -249,7 +256,7 @@
             this.gunaButton8.OnPressedColor = System.Drawing.Color.Black;
             this.gunaButton8.Size = new System.Drawing.Size(109, 46);
             this.gunaButton8.TabIndex = 14;
-            this.gunaButton8.Text = "Clear";
+            this.gunaButton8.Click += new System.EventHandler(this.gunaButton8_Click);
             // 
             // gunaButton9
             // 
@@ -274,7 +281,7 @@
             this.gunaButton9.OnPressedColor = System.Drawing.Color.Black;
             this.gunaButton9.Size = new System.Drawing.Size(109, 46);
             this.gunaButton9.TabIndex = 15;
-            this.gunaButton9.Text = "Clear";
+            this.gunaButton9.Click += new System.EventHandler(this.gunaButton9_Click);
             // 
             // gunaButton10
             // 
@@ -299,7 +306,7 @@
             this.gunaButton10.OnPressedColor = System.Drawing.Color.Black;
             this.gunaButton10.Size = new System.Drawing.Size(109, 46);
             this.gunaButton10.TabIndex = 16;
-            this.gunaButton10.Text = "Clear";
+            this.gunaButton10.Click += new System.EventHandler(this.gunaButton10_Click);
             // 
             // gunaButton11
             // 
@@ -324,7 +331,7 @@
             this.gunaButton11.OnPressedColor = System.Drawing.Color.Black;
             this.gunaButton11.Size = new System.Drawing.Size(109, 46);
             this.gunaButton11.TabIndex = 17;
-            this.gunaButton11.Text = "Clear";
+            this.gunaButton11.Click += new System.EventHandler(this.gunaButton11_Click);
             // 
             // gunaButton12
             // 
@@ -349,7 +356,7 @@
             this.gunaButton12.OnPressedColor = System.Drawing.Color.Black;
             this.gunaButton12.Size = new System.Drawing.Size(109, 46);
             this.gunaButton12.TabIndex = 18;
-            this.gunaButton12.Text = "Clear";
+            this.gunaButton12.Click += new System.EventHandler(this.gunaButton12_Click);
             // 
             // gunaButton13
             // 
@@ -374,7 +381,8 @@
             this.gunaButton13.OnPressedColor = System.Drawing.Color.Black;
             this.gunaButton13.Size = new System.Drawing.Size(109, 46);
             this.gunaButton13.TabIndex = 19;
-            this.gunaButton13.Text = "Clear";
+            this.gunaButton13.Text = "car crushers 2";
+            this.gunaButton13.Click += new System.EventHandler(this.gunaButton13_Click);
             // 
             // gunaButton14
             // 
@@ -399,7 +407,7 @@
             this.gunaButton14.OnPressedColor = System.Drawing.Color.Black;
             this.gunaButton14.Size = new System.Drawing.Size(109, 46);
             this.gunaButton14.TabIndex = 20;
-            this.gunaButton14.Text = "Clear";
+            this.gunaButton14.Click += new System.EventHandler(this.gunaButton14_Click);
             // 
             // gunaButton15
             // 
@@ -424,7 +432,7 @@
             this.gunaButton15.OnPressedColor = System.Drawing.Color.Black;
             this.gunaButton15.Size = new System.Drawing.Size(109, 46);
             this.gunaButton15.TabIndex = 21;
-            this.gunaButton15.Text = "Clear";
+            this.gunaButton15.Click += new System.EventHandler(this.gunaButton15_Click);
             // 
             // gunaButton16
             // 
@@ -449,7 +457,7 @@
             this.gunaButton16.OnPressedColor = System.Drawing.Color.Black;
             this.gunaButton16.Size = new System.Drawing.Size(109, 46);
             this.gunaButton16.TabIndex = 22;
-            this.gunaButton16.Text = "Clear";
+            this.gunaButton16.Text = "Owl Hub";
             this.gunaButton16.Click += new System.EventHandler(this.gunaButton16_Click);
             // 
             // panel1
@@ -528,6 +536,7 @@
             this.Controls.Add(this.gunaButton1);
             this.Controls.Add(this.gunaButton4);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ScriptHub";
             this.Text = "ScriptHub";
             this.Load += new System.EventHandler(this.ScriptHub_Load);
