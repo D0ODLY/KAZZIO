@@ -175,6 +175,8 @@ namespace KAZZIO
 
         private void gunaButton8_Click(object sender, EventArgs e)
         {
+            options openform = new options();
+            openform.Show();
         }
 
         private void gunaButton13_Click(object sender, EventArgs e)

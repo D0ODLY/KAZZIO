@@ -43,6 +43,7 @@
             this.gunaPanel3 = new Guna.UI.WinForms.GunaPanel();
             this.gunaElipse1 = new Guna.UI.WinForms.GunaElipse(this.components);
             this.gunaButton17 = new Guna.UI.WinForms.GunaButton();
+            this.label9 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -192,12 +193,24 @@
             this.gunaButton17.Text = "X";
             this.gunaButton17.Click += new System.EventHandler(this.gunaButton17_Click);
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.White;
+            this.label9.Location = new System.Drawing.Point(176, 315);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(85, 20);
+            this.label9.TabIndex = 37;
+            this.label9.Text = "Version 4.0";
+            // 
             // info
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
             this.ClientSize = new System.Drawing.Size(280, 344);
+            this.Controls.Add(this.label9);
             this.Controls.Add(this.gunaButton17);
             this.Controls.Add(this.gunaPanel3);
             this.Controls.Add(this.gunaPanel2);
@@ -236,5 +249,6 @@
         private Guna.UI.WinForms.GunaPanel gunaPanel3;
         private Guna.UI.WinForms.GunaElipse gunaElipse1;
         private Guna.UI.WinForms.GunaButton gunaButton17;
+        private System.Windows.Forms.Label label9;
     }
 }
