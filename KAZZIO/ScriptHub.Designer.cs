@@ -256,7 +256,7 @@
             this.gunaButton13.OnPressedColor = System.Drawing.Color.Black;
             this.gunaButton13.Size = new System.Drawing.Size(109, 46);
             this.gunaButton13.TabIndex = 19;
-            this.gunaButton13.Text = "car crushers 2";
+            this.gunaButton13.Text = "Car Crushers 2";
             this.gunaButton13.Click += new System.EventHandler(this.gunaButton13_Click);
             // 
             // gunaButton16
@@ -387,6 +387,8 @@
             this.Name = "ScriptHub";
             this.Text = "ScriptHub";
             this.Load += new System.EventHandler(this.ScriptHub_Load);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ScriptHub_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.ScriptHub_MouseMove);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
