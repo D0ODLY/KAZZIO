@@ -420,7 +420,7 @@
         '\'',
         '\''};
             this.fastColoredTextBox1.AutoIndentCharsPatterns = "\r\n^\\s*[\\w\\.]+(\\s\\w+)?\\s*(?<range>=)\\s*(?<range>.+)\r\n";
-            this.fastColoredTextBox1.AutoScrollMinSize = new System.Drawing.Size(363, 168);
+            this.fastColoredTextBox1.AutoScrollMinSize = new System.Drawing.Size(363, 182);
             this.fastColoredTextBox1.BackBrush = null;
             this.fastColoredTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.fastColoredTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -449,8 +449,8 @@
             this.fastColoredTextBox1.Size = new System.Drawing.Size(481, 240);
             this.fastColoredTextBox1.TabIndex = 9;
             this.fastColoredTextBox1.Text = " were you still using V3? BRUHHHH\r\n\r\n                   Welcome to KAZZIO V.4!\r\n\r" +
-    "\nWhat\'s new?\r\n\r\n-New loadout\r\n-New Buttons\r\n-New features\r\n-New Scripts\r\n\r\nEnjoy" +
-    "!";
+    "\nWhat\'s new?\r\n\r\n-New loadout\r\n-New Buttons\r\n-New features\r\n-New Scripts\r\n-New lo" +
+    "ader\r\n\r\nEnjoy!";
             this.fastColoredTextBox1.Zoom = 100;
             this.fastColoredTextBox1.Load += new System.EventHandler(this.fastColoredTextBox1_Load);
             // 

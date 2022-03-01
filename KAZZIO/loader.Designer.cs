@@ -138,9 +138,9 @@
             this.cbrememberme.ForeColor = System.Drawing.Color.White;
             this.cbrememberme.Location = new System.Drawing.Point(64, 288);
             this.cbrememberme.Name = "cbrememberme";
-            this.cbrememberme.Size = new System.Drawing.Size(110, 20);
+            this.cbrememberme.Size = new System.Drawing.Size(186, 20);
             this.cbrememberme.TabIndex = 28;
-            this.cbrememberme.Text = "Remember me";
+            this.cbrememberme.Text = "Remember me (not working)";
             this.cbrememberme.CheckedChanged += new System.EventHandler(this.cbrememberme_CheckedChanged);
             // 
             // gunaElipsePanel1

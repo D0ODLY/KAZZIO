@@ -104,7 +104,7 @@ namespace KAZZIO
         private void gunaButton5_Click(object sender, EventArgs e)
         {
             WebClient wb = new WebClient();
-            string Script = wb.DownloadString("link");
+            string Script = wb.DownloadString("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua");
             module.SendLuaScript(Script);
         }
 
@@ -119,55 +119,6 @@ namespace KAZZIO
         {
             WebClient wb = new WebClient();
             string Script = wb.DownloadString("https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub");
-            module.SendLuaScript(Script);
-        }
-
-        private void gunaButton8_Click(object sender, EventArgs e)
-        {
-            WebClient wb = new WebClient();
-            string Script = wb.DownloadString("link");
-            module.SendLuaScript(Script);
-        }
-
-        private void gunaButton9_Click(object sender, EventArgs e)
-        {
-            WebClient wb = new WebClient();
-            string Script = wb.DownloadString("link");
-            module.SendLuaScript(Script);
-        }
-
-        private void gunaButton15_Click(object sender, EventArgs e)
-        {
-            WebClient wb = new WebClient();
-            string Script = wb.DownloadString("link");
-            module.SendLuaScript(Script);
-        }
-
-        private void gunaButton12_Click(object sender, EventArgs e)
-        {
-            WebClient wb = new WebClient();
-            string Script = wb.DownloadString("link");
-            module.SendLuaScript(Script);
-        }
-
-        private void gunaButton11_Click(object sender, EventArgs e)
-        {
-            WebClient wb = new WebClient();
-            string Script = wb.DownloadString("link");
-            module.SendLuaScript(Script);
-        }
-
-        private void gunaButton10_Click(object sender, EventArgs e)
-        {
-            WebClient wb = new WebClient();
-            string Script = wb.DownloadString("link");
-            module.SendLuaScript(Script);
-        }
-
-        private void gunaButton14_Click(object sender, EventArgs e)
-        {
-            WebClient wb = new WebClient();
-            string Script = wb.DownloadString("link");
             module.SendLuaScript(Script);
         }
 
