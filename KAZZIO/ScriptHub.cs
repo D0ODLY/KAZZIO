@@ -152,9 +152,11 @@ namespace KAZZIO
         private void gunaButton9_Click(object sender, EventArgs e)
         {
             universalScripts1.BringToFront();
-            gunaButton8.BringToFront();
+            gunaButton9.BringToFront();
+;           gunaButton8.BringToFront();
             pictureBox1.BringToFront();
             label2.SendToBack();
+            label2.Hide();
             universalScripts1.Show();
         }
 
@@ -162,6 +164,7 @@ namespace KAZZIO
         {
             universalScripts1.SendToBack();
             label2.BringToFront();
+            label2.Show();
             universalScripts1.Hide();
         }
 
