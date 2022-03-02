@@ -36,7 +36,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.gunaButton1 = new Guna.UI.WinForms.GunaButton();
-            this.bunifuToggleSwitch1 = new Bunifu.UI.WinForms.BunifuToggleSwitch();
+            this.bunifuiOSSwitch1 = new Bunifu.UI.WinForms.BunifuToggleSwitch();
             this.SuspendLayout();
             // 
             // label3
@@ -99,19 +99,19 @@
             this.gunaButton1.Size = new System.Drawing.Size(33, 27);
             this.gunaButton1.TabIndex = 36;
             // 
-            // bunifuToggleSwitch1
+            // bunifuiOSSwitch1
             // 
-            this.bunifuToggleSwitch1.Animation = 5;
-            this.bunifuToggleSwitch1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuToggleSwitch1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuToggleSwitch1.BackgroundImage")));
-            this.bunifuToggleSwitch1.Checked = false;
-            this.bunifuToggleSwitch1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuToggleSwitch1.InnerCirclePadding = 3;
-            this.bunifuToggleSwitch1.Location = new System.Drawing.Point(472, 73);
-            this.bunifuToggleSwitch1.Name = "bunifuToggleSwitch1";
-            this.bunifuToggleSwitch1.Size = new System.Drawing.Size(38, 21);
-            this.bunifuToggleSwitch1.TabIndex = 33;
-            this.bunifuToggleSwitch1.ThumbMargin = 3;
+            this.bunifuiOSSwitch1.Animation = 5;
+            this.bunifuiOSSwitch1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuiOSSwitch1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuiOSSwitch1.BackgroundImage")));
+            this.bunifuiOSSwitch1.Checked = false;
+            this.bunifuiOSSwitch1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuiOSSwitch1.InnerCirclePadding = 3;
+            this.bunifuiOSSwitch1.Location = new System.Drawing.Point(427, 73);
+            this.bunifuiOSSwitch1.Name = "bunifuiOSSwitch1";
+            this.bunifuiOSSwitch1.Size = new System.Drawing.Size(41, 22);
+            this.bunifuiOSSwitch1.TabIndex = 37;
+            this.bunifuiOSSwitch1.ThumbMargin = 3;
             toggleState1.BackColor = System.Drawing.Color.DarkGray;
             toggleState1.BackColorInner = System.Drawing.Color.White;
             toggleState1.BorderColor = System.Drawing.Color.DarkGray;
@@ -120,7 +120,7 @@
             toggleState1.BorderRadiusInner = 11;
             toggleState1.BorderThickness = 1;
             toggleState1.BorderThicknessInner = 1;
-            this.bunifuToggleSwitch1.ToggleStateDisabled = toggleState1;
+            this.bunifuiOSSwitch1.ToggleStateDisabled = toggleState1;
             toggleState2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             toggleState2.BackColorInner = System.Drawing.Color.White;
             toggleState2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
@@ -129,7 +129,7 @@
             toggleState2.BorderRadiusInner = 11;
             toggleState2.BorderThickness = 1;
             toggleState2.BorderThicknessInner = 1;
-            this.bunifuToggleSwitch1.ToggleStateOff = toggleState2;
+            this.bunifuiOSSwitch1.ToggleStateOff = toggleState2;
             toggleState3.BackColor = System.Drawing.Color.DodgerBlue;
             toggleState3.BackColorInner = System.Drawing.Color.White;
             toggleState3.BorderColor = System.Drawing.Color.DodgerBlue;
@@ -138,20 +138,20 @@
             toggleState3.BorderRadiusInner = 11;
             toggleState3.BorderThickness = 1;
             toggleState3.BorderThicknessInner = 1;
-            this.bunifuToggleSwitch1.ToggleStateOn = toggleState3;
-            this.bunifuToggleSwitch1.Value = false;
-            this.bunifuToggleSwitch1.CheckedChanged += new System.EventHandler<Bunifu.UI.WinForms.BunifuToggleSwitch.CheckedChangedEventArgs>(this.bunifuToggleSwitch1_CheckedChanged);
+            this.bunifuiOSSwitch1.ToggleStateOn = toggleState3;
+            this.bunifuiOSSwitch1.Value = false;
+            this.bunifuiOSSwitch1.CheckedChanged += new System.EventHandler<Bunifu.UI.WinForms.BunifuToggleSwitch.CheckedChangedEventArgs>(this.bunifuiOSSwitch1_CheckedChanged_1);
             // 
             // options
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.Controls.Add(this.bunifuiOSSwitch1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.gunaButton1);
-            this.Controls.Add(this.bunifuToggleSwitch1);
             this.Name = "options";
             this.Size = new System.Drawing.Size(529, 238);
             this.Load += new System.EventHandler(this.options_Load);
@@ -166,6 +166,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private Guna.UI.WinForms.GunaButton gunaButton1;
-        private Bunifu.UI.WinForms.BunifuToggleSwitch bunifuToggleSwitch1;
+        private Bunifu.UI.WinForms.BunifuToggleSwitch bunifuiOSSwitch1;
     }
 }

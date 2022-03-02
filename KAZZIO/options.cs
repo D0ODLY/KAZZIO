@@ -22,9 +22,34 @@ namespace KAZZIO
 
         }
 
-        private void bunifuToggleSwitch1_CheckedChanged(object sender, Bunifu.UI.WinForms.BunifuToggleSwitch.CheckedChangedEventArgs e)
+        private void bunifuiOSSwitch1_CheckedChanged(object sender, Bunifu.UI.WinForms.BunifuToggleSwitch.CheckedChangedEventArgs e)
         {
+                FrmInicial main = new FrmInicial();
+            if(bunifuiOSSwitch1.Value == true)
+            {
+                main.TopMost = true;
+            }
+            else
+            {
+                main.TopMost = false;
+            }
+        }
 
+        private void bunifuiOSSwitch1_CheckedChanged_1(object sender, Bunifu.UI.WinForms.BunifuToggleSwitch.CheckedChangedEventArgs e)
+        {
+             FrmInicial main = new FrmInicial();
+            if(bunifuiOSSwitch1.Value == true)
+            {
+                main.TopMost = true;
+                main.Show();
+                
+            }
+            else
+            {
+                main.TopMost = false;
+                main.Show();
+                
+            }
         }
     }
 }
