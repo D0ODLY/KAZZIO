@@ -24,10 +24,7 @@ namespace KAZZIO
 
         private void bunifuToggleSwitch1_CheckedChanged(object sender, Bunifu.UI.WinForms.BunifuToggleSwitch.CheckedChangedEventArgs e)
         {
-            FrmInicial f2 = new FrmInicial();
-                f2.TopMost = true;
-            f2.Hide();
-            f2.Show();  
+
         }
     }
 }
