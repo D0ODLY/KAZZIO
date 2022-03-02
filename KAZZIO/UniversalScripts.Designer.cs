@@ -63,6 +63,7 @@
             this.gunaButton16.Size = new System.Drawing.Size(110, 40);
             this.gunaButton16.TabIndex = 23;
             this.gunaButton16.Text = "Aimbot";
+            this.gunaButton16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButton16.Click += new System.EventHandler(this.gunaButton16_Click);
             // 
             // gunaButton1
@@ -89,6 +90,7 @@
             this.gunaButton1.Size = new System.Drawing.Size(110, 40);
             this.gunaButton1.TabIndex = 24;
             this.gunaButton1.Text = "Fly";
+            this.gunaButton1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButton1.Click += new System.EventHandler(this.gunaButton1_Click);
             // 
             // gunaButton2
@@ -115,6 +117,7 @@
             this.gunaButton2.Size = new System.Drawing.Size(110, 40);
             this.gunaButton2.TabIndex = 25;
             this.gunaButton2.Text = "Owl Hub";
+            this.gunaButton2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButton2.Click += new System.EventHandler(this.gunaButton2_Click);
             // 
             // gunaButton3
@@ -141,6 +144,7 @@
             this.gunaButton3.Size = new System.Drawing.Size(110, 40);
             this.gunaButton3.TabIndex = 26;
             this.gunaButton3.Text = "Wallhack";
+            this.gunaButton3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButton3.Click += new System.EventHandler(this.gunaButton3_Click);
             // 
             // gunaButton4
@@ -167,6 +171,7 @@
             this.gunaButton4.Size = new System.Drawing.Size(110, 40);
             this.gunaButton4.TabIndex = 27;
             this.gunaButton4.Text = "V.G Hub";
+            this.gunaButton4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButton4.Click += new System.EventHandler(this.gunaButton4_Click);
             // 
             // gunaButton5
@@ -193,6 +198,7 @@
             this.gunaButton5.Size = new System.Drawing.Size(110, 40);
             this.gunaButton5.TabIndex = 28;
             this.gunaButton5.Text = "Owl Hub";
+            this.gunaButton5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButton5.Click += new System.EventHandler(this.gunaButton5_Click);
             // 
             // gunaButton6
@@ -219,6 +225,7 @@
             this.gunaButton6.Size = new System.Drawing.Size(110, 40);
             this.gunaButton6.TabIndex = 29;
             this.gunaButton6.Text = "Infine Yield";
+            this.gunaButton6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButton6.Click += new System.EventHandler(this.gunaButton6_Click);
             // 
             // gunaButton7
@@ -245,6 +252,7 @@
             this.gunaButton7.Size = new System.Drawing.Size(110, 40);
             this.gunaButton7.TabIndex = 30;
             this.gunaButton7.Text = "Anti-AFK";
+            this.gunaButton7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButton7.Click += new System.EventHandler(this.gunaButton7_Click);
             // 
             // label3

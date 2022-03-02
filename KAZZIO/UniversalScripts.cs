@@ -30,14 +30,14 @@ namespace KAZZIO
         private void gunaButton16_Click(object sender, EventArgs e)
         {
             WebClient wb = new WebClient();
-            string Script = wb.DownloadString("LINK");
+            string Script = wb.DownloadString("https://cdn.wearedevs.net/scripts/WRD%20Aimbot.txt");
             module.SendLuaScript(Script);
         }
 
         private void gunaButton7_Click(object sender, EventArgs e)
         {
             WebClient wb = new WebClient();
-            string Script = wb.DownloadString("LINK");
+            string Script = wb.DownloadString("https://pastebin.com/raw/hDiCnkaJ");
             module.SendLuaScript(Script);
         }
 
