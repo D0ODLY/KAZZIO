@@ -96,5 +96,29 @@ namespace KAZZIO
         {
             lastPoint = new Point(e.X, e.Y);
         }
+
+        private void gunaCheckBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
+            if (gunaCheckBox1.Checked == true)
+            {
+                txtpassword.UseSystemPasswordChar = false;
+            }
+            else
+            {
+
+                txtpassword.UseSystemPasswordChar = true;
+            }
+
+
+
+
+
+            }
+
+        private void txtpassword_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

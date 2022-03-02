@@ -148,10 +148,10 @@
       <HintPath>..\dll\Bunifu\Bunifu.UI.WinForms.Deprecated.dll</HintPath>
     </Reference>
     <Reference Include="FastColoredTextBox">
-      <HintPath>..\..\..\..\Desktop\New folder (2)\dll\FastColoredTextBox.dll</HintPath>
+      <HintPath>..\..\..\..\Downloads\Tutorial Video\dlls\FastColoredTextBox.dll</HintPath>
     </Reference>
     <Reference Include="Guna.UI">
-      <HintPath>..\..\..\..\Desktop\New folder (2)\dll\Guna.UI.dll</HintPath>
+      <HintPath>..\..\..\..\Downloads\Guna.UI.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -165,7 +165,7 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="WeAreDevs_API">
-      <HintPath>..\..\..\..\Desktop\New folder (2)\dll\WeAreDevs_API.dll</HintPath>
+      <HintPath>..\..\..\..\Downloads\WeAreDevs_API.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -270,6 +270,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-discord-new-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
