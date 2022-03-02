@@ -216,5 +216,10 @@ namespace KAZZIO
         {
 
         }
+
+        private void options1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

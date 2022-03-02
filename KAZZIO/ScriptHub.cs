@@ -70,7 +70,8 @@ namespace KAZZIO
 
         private void ScriptHub_Load(object sender, EventArgs e)
         {
-
+            universalScripts1.SendToBack();
+            universalScripts1.Hide();
         }
 
         private void gunaButton3_Click(object sender, EventArgs e)
@@ -146,6 +147,37 @@ namespace KAZZIO
             WebClient wb = new WebClient();
             string Script = wb.DownloadString("https://raw.githubusercontent.com/lel69/KAT/main/GUI");
             module.SendLuaScript(Script);
+        }
+
+        private void gunaButton9_Click(object sender, EventArgs e)
+        {
+            universalScripts1.BringToFront();
+            gunaButton8.BringToFront();
+            pictureBox1.BringToFront();
+            label2.SendToBack();
+            universalScripts1.Show();
+        }
+
+        private void gunaButton8_Click(object sender, EventArgs e)
+        {
+            universalScripts1.SendToBack();
+            label2.BringToFront();
+            universalScripts1.Hide();
+        }
+
+        private void universalScripts1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

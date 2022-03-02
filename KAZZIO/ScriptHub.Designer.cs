@@ -40,18 +40,20 @@
             this.gunaButton13 = new Guna.UI.WinForms.GunaButton();
             this.gunaButton16 = new Guna.UI.WinForms.GunaButton();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.Logo = new System.Windows.Forms.PictureBox();
             this.gunaButton17 = new Guna.UI.WinForms.GunaButton();
             this.label1 = new System.Windows.Forms.Label();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.gunaButton8 = new Guna.UI.WinForms.GunaButton();
             this.gunaButton9 = new Guna.UI.WinForms.GunaButton();
             this.gunaButton10 = new Guna.UI.WinForms.GunaButton();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.Logo = new System.Windows.Forms.PictureBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.universalScripts1 = new KAZZIO.UniversalScripts();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Logo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Logo)).BeginInit();
             this.SuspendLayout();
             // 
             // gunaButton4
@@ -303,16 +305,6 @@
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseMove);
             // 
-            // Logo
-            // 
-            this.Logo.Image = global::KAZZIO.Properties.Resources.kazzio1;
-            this.Logo.Location = new System.Drawing.Point(12, 0);
-            this.Logo.Name = "Logo";
-            this.Logo.Size = new System.Drawing.Size(72, 50);
-            this.Logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.Logo.TabIndex = 25;
-            this.Logo.TabStop = false;
-            // 
             // gunaButton17
             // 
             this.gunaButton17.Animated = true;
@@ -368,23 +360,13 @@
             this.label2.Size = new System.Drawing.Size(265, 16);
             this.label2.TabIndex = 25;
             this.label2.Text = "The above scripts will only work if you inject first!";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(122, 55);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(400, 1);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 24;
-            this.pictureBox1.TabStop = false;
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // gunaButton8
             // 
             this.gunaButton8.AnimationHoverSpeed = 0.07F;
             this.gunaButton8.AnimationSpeed = 0.03F;
-            this.gunaButton8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.gunaButton8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
             this.gunaButton8.BaseColor = System.Drawing.Color.Transparent;
             this.gunaButton8.BorderColor = System.Drawing.Color.Black;
             this.gunaButton8.DialogResult = System.Windows.Forms.DialogResult.None;
@@ -393,16 +375,17 @@
             this.gunaButton8.ForeColor = System.Drawing.Color.White;
             this.gunaButton8.Image = null;
             this.gunaButton8.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton8.Location = new System.Drawing.Point(230, 62);
+            this.gunaButton8.Location = new System.Drawing.Point(232, 62);
             this.gunaButton8.Name = "gunaButton8";
             this.gunaButton8.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.gunaButton8.OnHoverBorderColor = System.Drawing.Color.Black;
             this.gunaButton8.OnHoverForeColor = System.Drawing.Color.White;
             this.gunaButton8.OnHoverImage = null;
             this.gunaButton8.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton8.Size = new System.Drawing.Size(84, 20);
+            this.gunaButton8.Size = new System.Drawing.Size(82, 20);
             this.gunaButton8.TabIndex = 27;
             this.gunaButton8.Text = "GameHub";
+            this.gunaButton8.Click += new System.EventHandler(this.gunaButton8_Click);
             // 
             // gunaButton9
             // 
@@ -427,6 +410,7 @@
             this.gunaButton9.Size = new System.Drawing.Size(116, 20);
             this.gunaButton9.TabIndex = 28;
             this.gunaButton9.Text = "Universal Scripts";
+            this.gunaButton9.Click += new System.EventHandler(this.gunaButton9_Click);
             // 
             // gunaButton10
             // 
@@ -455,12 +439,56 @@
             this.gunaButton10.Text = "KAT!";
             this.gunaButton10.Click += new System.EventHandler(this.gunaButton10_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(122, 55);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(400, 1);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 24;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // Logo
+            // 
+            this.Logo.Image = global::KAZZIO.Properties.Resources.kazzio1;
+            this.Logo.Location = new System.Drawing.Point(12, 0);
+            this.Logo.Name = "Logo";
+            this.Logo.Size = new System.Drawing.Size(72, 50);
+            this.Logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.Logo.TabIndex = 25;
+            this.Logo.TabStop = false;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.label3.Location = new System.Drawing.Point(364, 311);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(265, 16);
+            this.label3.TabIndex = 31;
+            this.label3.Text = "The above scripts will only work if you inject first!";
+            // 
+            // universalScripts1
+            // 
+            this.universalScripts1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.universalScripts1.Location = new System.Drawing.Point(-7, 49);
+            this.universalScripts1.Name = "universalScripts1";
+            this.universalScripts1.Size = new System.Drawing.Size(664, 353);
+            this.universalScripts1.TabIndex = 30;
+            this.universalScripts1.Load += new System.EventHandler(this.universalScripts1_Load);
+            // 
             // ScriptHub
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
             this.ClientSize = new System.Drawing.Size(658, 402);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.gunaButton10);
             this.Controls.Add(this.gunaButton9);
             this.Controls.Add(this.gunaButton8);
@@ -476,6 +504,7 @@
             this.Controls.Add(this.gunaButton2);
             this.Controls.Add(this.gunaButton1);
             this.Controls.Add(this.gunaButton4);
+            this.Controls.Add(this.universalScripts1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ScriptHub";
@@ -485,8 +514,8 @@
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.ScriptHub_MouseMove);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Logo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Logo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -513,5 +542,7 @@
         private Guna.UI.WinForms.GunaButton gunaButton8;
         private Guna.UI.WinForms.GunaButton gunaButton9;
         private Guna.UI.WinForms.GunaButton gunaButton10;
+        private UniversalScripts universalScripts1;
+        private System.Windows.Forms.Label label3;
     }
 }
