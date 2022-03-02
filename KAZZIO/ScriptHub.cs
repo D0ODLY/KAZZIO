@@ -140,5 +140,12 @@ namespace KAZZIO
         {
 
         }
+
+        private void gunaButton10_Click(object sender, EventArgs e)
+        {
+            WebClient wb = new WebClient();
+            string Script = wb.DownloadString("https://raw.githubusercontent.com/lel69/KAT/main/GUI");
+            module.SendLuaScript(Script);
+        }
     }
 }

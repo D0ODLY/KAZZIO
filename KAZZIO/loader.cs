@@ -34,7 +34,7 @@ namespace KAZZIO
 
         private void gunaButton3_Click(object sender, EventArgs e)
         {
-             if (txtusername.Text=="KAZZIO" && txtpassword.Text=="KAZZIO")
+            if (txtusername.Text=="a" && txtpassword.Text=="a")
              {
                 new FrmInicial().Show();
                 this.Hide();
@@ -119,6 +119,16 @@ namespace KAZZIO
         private void txtpassword_TextChanged(object sender, EventArgs e)
         {
             
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+
+        }
+
+        private void timer1_Tick_1(object sender, EventArgs e)
+        {
+     
         }
     }
 }
