@@ -108,6 +108,8 @@ namespace KAZZIO
             listBox1.Items.Clear();//Clear Items in the LuaScriptList
             Functions.PopulateListBox(listBox1, "C:/Scripts/", "*.txt");
             Functions.PopulateListBox(listBox1, "C:/Scripts/", "*.lua");
+            options1.SendToBack();
+            options1.Hide();
         }
 
         private void gunaButton1_Click(object sender, EventArgs e)
@@ -179,8 +181,8 @@ namespace KAZZIO
         {
             SidePanel.Height = gunaButton8.Height;
             SidePanel.Top = gunaButton8.Top;
-            options openform = new options();
-            openform.Show();
+            options1.BringToFront();
+            options1.Show();
         }
 
         private void gunaButton13_Click(object sender, EventArgs e)
@@ -206,8 +208,8 @@ namespace KAZZIO
             SidePanel.Height = gunaButton5.Height;
             SidePanel.Top = gunaButton5.Top;
             this.Show();
-
-
+            options1.SendToBack();
+            options1.Hide();
         }
 
         private void SidePanel_Paint(object sender, PaintEventArgs e)

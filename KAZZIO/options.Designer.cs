@@ -2,12 +2,12 @@
 {
     partial class options
     {
-        /// <summary>
+        /// <summary> 
         /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
+        /// <summary> 
         /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
@@ -20,10 +20,10 @@
             base.Dispose(disposing);
         }
 
-        #region Windows Form Designer generated code
+        #region Component Designer generated code
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
+        /// <summary> 
+        /// Required method for Designer support - do not modify 
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
@@ -32,90 +32,12 @@
             Bunifu.UI.WinForms.BunifuToggleSwitch.ToggleState toggleState1 = new Bunifu.UI.WinForms.BunifuToggleSwitch.ToggleState();
             Bunifu.UI.WinForms.BunifuToggleSwitch.ToggleState toggleState2 = new Bunifu.UI.WinForms.BunifuToggleSwitch.ToggleState();
             Bunifu.UI.WinForms.BunifuToggleSwitch.ToggleState toggleState3 = new Bunifu.UI.WinForms.BunifuToggleSwitch.ToggleState();
-            this.label2 = new System.Windows.Forms.Label();
-            this.gunaElipsePanel1 = new Guna.UI.WinForms.GunaElipsePanel();
-            this.Logo = new System.Windows.Forms.PictureBox();
-            this.gunaButton17 = new Guna.UI.WinForms.GunaButton();
-            this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.gunaButton1 = new Guna.UI.WinForms.GunaButton();
             this.bunifuToggleSwitch1 = new Bunifu.UI.WinForms.BunifuToggleSwitch();
-            this.gunaElipsePanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Logo)).BeginInit();
             this.SuspendLayout();
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Transparent;
-            this.label2.Location = new System.Drawing.Point(65, 57);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(89, 22);
-            this.label2.TabIndex = 28;
-            this.label2.Text = "Top Most";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // gunaElipsePanel1
-            // 
-            this.gunaElipsePanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.gunaElipsePanel1.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.gunaElipsePanel1.Controls.Add(this.Logo);
-            this.gunaElipsePanel1.Controls.Add(this.gunaButton17);
-            this.gunaElipsePanel1.Controls.Add(this.label1);
-            this.gunaElipsePanel1.Location = new System.Drawing.Point(3, 2);
-            this.gunaElipsePanel1.Name = "gunaElipsePanel1";
-            this.gunaElipsePanel1.Size = new System.Drawing.Size(243, 45);
-            this.gunaElipsePanel1.TabIndex = 29;
-            // 
-            // Logo
-            // 
-            this.Logo.Image = global::KAZZIO.Properties.Resources.kazzio1;
-            this.Logo.Location = new System.Drawing.Point(0, 0);
-            this.Logo.Name = "Logo";
-            this.Logo.Size = new System.Drawing.Size(52, 45);
-            this.Logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.Logo.TabIndex = 31;
-            this.Logo.TabStop = false;
-            // 
-            // gunaButton17
-            // 
-            this.gunaButton17.Animated = true;
-            this.gunaButton17.AnimationHoverSpeed = 0.05F;
-            this.gunaButton17.AnimationSpeed = 0.01F;
-            this.gunaButton17.BaseColor = System.Drawing.Color.Transparent;
-            this.gunaButton17.BorderColor = System.Drawing.Color.Black;
-            this.gunaButton17.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton17.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton17.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaButton17.ForeColor = System.Drawing.Color.White;
-            this.gunaButton17.Image = null;
-            this.gunaButton17.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton17.Location = new System.Drawing.Point(207, 5);
-            this.gunaButton17.Margin = new System.Windows.Forms.Padding(4);
-            this.gunaButton17.Name = "gunaButton17";
-            this.gunaButton17.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
-            this.gunaButton17.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton17.OnHoverForeColor = System.Drawing.Color.Wheat;
-            this.gunaButton17.OnHoverImage = null;
-            this.gunaButton17.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton17.Size = new System.Drawing.Size(32, 31);
-            this.gunaButton17.TabIndex = 30;
-            this.gunaButton17.Text = "X";
-            this.gunaButton17.Click += new System.EventHandler(this.gunaButton17_Click_1);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Transparent;
-            this.label1.Location = new System.Drawing.Point(67, 8);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(96, 28);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Options";
             // 
             // label3
             // 
@@ -123,11 +45,35 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Transparent;
-            this.label3.Location = new System.Drawing.Point(77, 223);
+            this.label3.Location = new System.Drawing.Point(3, 208);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(76, 22);
-            this.label3.TabIndex = 30;
+            this.label3.TabIndex = 35;
             this.label3.Text = "Log Out";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Transparent;
+            this.label2.Location = new System.Drawing.Point(3, 73);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(89, 22);
+            this.label2.TabIndex = 34;
+            this.label2.Text = "Top Most";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Transparent;
+            this.label1.Location = new System.Drawing.Point(186, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(96, 28);
+            this.label1.TabIndex = 32;
+            this.label1.Text = "Options";
             // 
             // gunaButton1
             // 
@@ -143,7 +89,7 @@
             this.gunaButton1.ForeColor = System.Drawing.Color.White;
             this.gunaButton1.Image = null;
             this.gunaButton1.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton1.Location = new System.Drawing.Point(152, 222);
+            this.gunaButton1.Location = new System.Drawing.Point(85, 206);
             this.gunaButton1.Name = "gunaButton1";
             this.gunaButton1.OnHoverBaseColor = System.Drawing.Color.Transparent;
             this.gunaButton1.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -151,8 +97,7 @@
             this.gunaButton1.OnHoverImage = null;
             this.gunaButton1.OnPressedColor = System.Drawing.Color.Black;
             this.gunaButton1.Size = new System.Drawing.Size(33, 27);
-            this.gunaButton1.TabIndex = 31;
-            this.gunaButton1.Click += new System.EventHandler(this.gunaButton1_Click);
+            this.gunaButton1.TabIndex = 36;
             // 
             // bunifuToggleSwitch1
             // 
@@ -162,10 +107,10 @@
             this.bunifuToggleSwitch1.Checked = false;
             this.bunifuToggleSwitch1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuToggleSwitch1.InnerCirclePadding = 3;
-            this.bunifuToggleSwitch1.Location = new System.Drawing.Point(170, 60);
+            this.bunifuToggleSwitch1.Location = new System.Drawing.Point(472, 73);
             this.bunifuToggleSwitch1.Name = "bunifuToggleSwitch1";
             this.bunifuToggleSwitch1.Size = new System.Drawing.Size(38, 21);
-            this.bunifuToggleSwitch1.TabIndex = 27;
+            this.bunifuToggleSwitch1.TabIndex = 33;
             this.bunifuToggleSwitch1.ThumbMargin = 3;
             toggleState1.BackColor = System.Drawing.Color.DarkGray;
             toggleState1.BackColorInner = System.Drawing.Color.White;
@@ -201,33 +146,26 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.ClientSize = new System.Drawing.Size(248, 270);
-            this.Controls.Add(this.gunaButton1);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.gunaElipsePanel1);
             this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.gunaButton1);
             this.Controls.Add(this.bunifuToggleSwitch1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "options";
-            this.Text = "options";
+            this.Size = new System.Drawing.Size(529, 238);
             this.Load += new System.EventHandler(this.options_Load);
-            this.gunaElipsePanel1.ResumeLayout(false);
-            this.gunaElipsePanel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Logo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private Bunifu.UI.WinForms.BunifuToggleSwitch bunifuToggleSwitch1;
-        private System.Windows.Forms.Label label2;
-        private Guna.UI.WinForms.GunaElipsePanel gunaElipsePanel1;
-        private System.Windows.Forms.Label label1;
-        private Guna.UI.WinForms.GunaButton gunaButton17;
-        private System.Windows.Forms.PictureBox Logo;
+
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
         private Guna.UI.WinForms.GunaButton gunaButton1;
+        private Bunifu.UI.WinForms.BunifuToggleSwitch bunifuToggleSwitch1;
     }
 }

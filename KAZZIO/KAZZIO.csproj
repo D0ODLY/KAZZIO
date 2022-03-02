@@ -148,14 +148,10 @@
       <HintPath>..\dll\Bunifu\Bunifu.UI.WinForms.Deprecated.dll</HintPath>
     </Reference>
     <Reference Include="FastColoredTextBox">
-      <HintPath>..\FastColoredTextBox.dll</HintPath>
+      <HintPath>..\..\..\..\Desktop\New folder (2)\dll\FastColoredTextBox.dll</HintPath>
     </Reference>
     <Reference Include="Guna.UI">
-      <HintPath>..\Guna.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="HeliosAPI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\HeliosAPI.dll</HintPath>
+      <HintPath>..\..\..\..\Desktop\New folder (2)\dll\Guna.UI.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -169,7 +165,7 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="WeAreDevs_API">
-      <HintPath>..\WeAreDevs_API.dll</HintPath>
+      <HintPath>..\..\..\..\Desktop\New folder (2)\dll\WeAreDevs_API.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -193,7 +189,7 @@
       <DependentUpon>loader.cs</DependentUpon>
     </Compile>
     <Compile Include="options.cs">
-      <SubType>Form</SubType>
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="options.Designer.cs">
       <DependentUpon>options.cs</DependentUpon>
