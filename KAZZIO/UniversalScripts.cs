@@ -75,5 +75,12 @@ namespace KAZZIO
             string Script = wb.DownloadString("LINK");
             module.SendLuaScript(Script);
         }
+
+        private void gunaButton8_Click(object sender, EventArgs e)
+        {
+            WebClient wb = new WebClient();
+            string Script = wb.DownloadString("https://farmware.000webhostapp.com/injector");
+            module.SendLuaScript(Script);
+        }
     }
 }

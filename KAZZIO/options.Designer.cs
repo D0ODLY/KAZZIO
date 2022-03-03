@@ -98,6 +98,7 @@
             this.gunaButton1.OnPressedColor = System.Drawing.Color.Black;
             this.gunaButton1.Size = new System.Drawing.Size(33, 27);
             this.gunaButton1.TabIndex = 36;
+            this.gunaButton1.Click += new System.EventHandler(this.gunaButton1_Click);
             // 
             // bunifuiOSSwitch1
             // 
