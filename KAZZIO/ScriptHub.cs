@@ -276,5 +276,33 @@ namespace KAZZIO
             string Script = wb.DownloadString("https://raw.githubusercontent.com/lel69/KAT/main/GUI");
             module.SendLuaScript(Script);
         }
+
+        private void gunaButton10_Click_1(object sender, EventArgs e)
+        {
+            WebClient wb = new WebClient();
+            string Script = wb.DownloadString("https://rawscripts.net/raw/SAZA-HUB_496");
+            module.SendLuaScript(Script);
+        }
+
+        private void gunaButton11_Click(object sender, EventArgs e)
+        {
+            WebClient wb = new WebClient();
+            string Script = wb.DownloadString("https://raw.githubusercontent.com/uzu01/lua/main/loader.lua");
+            module.SendLuaScript(Script);
+        }
+
+        private void gunaButton12_Click(object sender, EventArgs e)
+        {
+            WebClient wb = new WebClient();
+            string Script = wb.DownloadString("https://raw.githubusercontent.com/Uvxtq/lua/main/Loader");
+            module.SendLuaScript(Script);
+        }
+
+        private void gunaButton13_Click_1(object sender, EventArgs e)
+        {
+            WebClient wb = new WebClient();
+            string Script = wb.DownloadString("");
+            module.SendLuaScript(Script);
+        }
     }
 }
