@@ -82,5 +82,10 @@ namespace KAZZIO
             string Script = wb.DownloadString("https://farmware.000webhostapp.com/injector");
             module.SendLuaScript(Script);
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

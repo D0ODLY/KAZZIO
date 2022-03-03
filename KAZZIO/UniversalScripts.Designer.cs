@@ -262,11 +262,12 @@
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label3.Location = new System.Drawing.Point(374, 325);
+            this.label3.Location = new System.Drawing.Point(268, 323);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(265, 16);
+            this.label3.Size = new System.Drawing.Size(370, 16);
             this.label3.TabIndex = 32;
-            this.label3.Text = "The above scripts will only work if you inject first!";
+            this.label3.Text = "Some scripts can have key sistem and will only work if you inject first!";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // gunaButton8
             // 

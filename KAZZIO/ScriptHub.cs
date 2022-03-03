@@ -301,7 +301,7 @@ namespace KAZZIO
         private void gunaButton13_Click_1(object sender, EventArgs e)
         {
             WebClient wb = new WebClient();
-            string Script = wb.DownloadString("");
+            string Script = wb.DownloadString("https://raw.githubusercontent.com/LeoKholYt/roblox/main/bigpaintball.lua");
             module.SendLuaScript(Script);
         }
     }
