@@ -65,7 +65,7 @@ namespace KAZZIO
 
         private void loader_Load(object sender, EventArgs e)
         {
-         
+         txtpassword.UseSystemPasswordChar = true;
         }
 
         private void cbrememberme_CheckedChanged(object sender, EventArgs e)
@@ -106,38 +106,8 @@ namespace KAZZIO
             }
             else
             {
-
                 txtpassword.UseSystemPasswordChar = true;
             }
-
-
-
-
-
-            }
-
-        private void txtpassword_TextChanged(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-
-        }
-
-        private void timer1_Tick_1(object sender, EventArgs e)
-        {
-     
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
 
         }
     }
