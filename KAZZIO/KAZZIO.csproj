@@ -55,7 +55,7 @@
       <HintPath>..\dll\Bunifu\Bunifu.UI.WinForms.1.5.3.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuButton">
-      <HintPath>..\..\..\..\Downloads\BunifuCrack-main\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
+      <HintPath>..\..\New folder (2)\dll\Bunifu\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuTextbox">
       <HintPath>..\dll\Bunifu\Bunifu.UI.WinForms.BunifuTextbox.dll</HintPath>
@@ -64,10 +64,10 @@
       <HintPath>..\dll\Bunifu\Bunifu.UI.WinForms.BunifuToggleSwitch.dll</HintPath>
     </Reference>
     <Reference Include="FastColoredTextBox">
-      <HintPath>..\..\..\..\Downloads\Tutorial Video\dlls\FastColoredTextBox.dll</HintPath>
+      <HintPath>..\..\New folder (2)\dll\FastColoredTextBox.dll</HintPath>
     </Reference>
     <Reference Include="Guna.UI">
-      <HintPath>..\..\..\..\Downloads\Guna.UI.dll</HintPath>
+      <HintPath>..\..\New folder (2)\dll\Guna.UI.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -82,7 +82,7 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="WeAreDevs_API">
-      <HintPath>..\..\..\..\Downloads\WeAreDevs_API.dll</HintPath>
+      <HintPath>..\..\New folder (2)\dll\WeAreDevs_API.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -12,9 +12,11 @@ namespace KAZZIO
 {
     public partial class options : UserControl
     {
+        public static options instance;
         public options()
         {
             InitializeComponent();
+            instance = this;
         }
 
         private void options_Load(object sender, EventArgs e)
@@ -24,32 +26,11 @@ namespace KAZZIO
 
         private void bunifuiOSSwitch1_CheckedChanged(object sender, Bunifu.UI.WinForms.BunifuToggleSwitch.CheckedChangedEventArgs e)
         {
-                FrmInicial main = new FrmInicial();
-            if(bunifuiOSSwitch1.Value == true)
-            {
-                main.TopMost = true;
-            }
-            else
-            {
-                main.TopMost = false;
-            }
         }
 
         private void bunifuiOSSwitch1_CheckedChanged_1(object sender, Bunifu.UI.WinForms.BunifuToggleSwitch.CheckedChangedEventArgs e)
         {
-             FrmInicial main = new FrmInicial();
-            if(bunifuiOSSwitch1.Value == true)
-            {
-                main.TopMost = true;
-                main.Show();
-                
-            }
-            else
-            {
-                main.TopMost = false;
-                main.Show();
-                
-            }
+            FrmInicial.instance.TopMost = bunifuiOSSwitch1.Value;
         }
 
         private void gunaButton1_Click(object sender, EventArgs e)

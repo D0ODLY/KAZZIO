@@ -14,6 +14,7 @@ namespace KAZZIO
 {
     public partial class FrmInicial : Form
     {
+        public static FrmInicial instance;
         ExploitAPI module = new ExploitAPI();
         public static class globals
         {
@@ -22,6 +23,7 @@ namespace KAZZIO
         public FrmInicial()
         {
             InitializeComponent();
+            instance = this;
         }
         Point lastPoint;
         private void gunaButton10_Click(object sender, EventArgs e)
