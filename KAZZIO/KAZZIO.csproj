@@ -55,7 +55,7 @@
       <HintPath>..\dll\Bunifu\Bunifu.UI.WinForms.1.5.3.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuButton">
-      <HintPath>..\..\New folder (2)\dll\Bunifu\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
+      <HintPath>..\dll\Bunifu\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
     </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuTextbox">
       <HintPath>..\dll\Bunifu\Bunifu.UI.WinForms.BunifuTextbox.dll</HintPath>
@@ -64,10 +64,10 @@
       <HintPath>..\dll\Bunifu\Bunifu.UI.WinForms.BunifuToggleSwitch.dll</HintPath>
     </Reference>
     <Reference Include="FastColoredTextBox">
-      <HintPath>..\..\New folder (2)\dll\FastColoredTextBox.dll</HintPath>
+      <HintPath>..\..\..\..\Downloads\Tutorial Video\dlls\FastColoredTextBox.dll</HintPath>
     </Reference>
     <Reference Include="Guna.UI">
-      <HintPath>..\..\New folder (2)\dll\Guna.UI.dll</HintPath>
+      <HintPath>..\..\..\..\Downloads\Guna.UI.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -82,10 +82,16 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="WeAreDevs_API">
-      <HintPath>..\..\New folder (2)\dll\WeAreDevs_API.dll</HintPath>
+      <HintPath>..\..\..\..\Downloads\WeAreDevs_API.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Customization.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Customization.Designer.cs">
+      <DependentUpon>Customization.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmInicial.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -130,6 +136,9 @@
     <Compile Include="UniversalScripts.Designer.cs">
       <DependentUpon>UniversalScripts.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Customization.resx">
+      <DependentUpon>Customization.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmInicial.resx">
       <DependentUpon>FrmInicial.cs</DependentUpon>
       <SubType>Designer</SubType>

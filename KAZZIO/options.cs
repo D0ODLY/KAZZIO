@@ -37,5 +37,20 @@ namespace KAZZIO
         {
             Application.Restart();
         }
+
+        private void gunaButton5_Click(object sender, EventArgs e)
+        {
+            customization1.Show();
+            customization1.BringToFront();
+            gunaButton4.BringToFront();
+            gunaButton3.BringToFront();
+
+        }
+
+        private void gunaButton3_Click(object sender, EventArgs e)
+        {
+            gunaButton4.BringToFront();
+            gunaButton5.BringToFront();
+        }
     }
 }
