@@ -304,5 +304,96 @@ namespace KAZZIO
             string Script = wb.DownloadString("https://raw.githubusercontent.com/LeoKholYt/roblox/main/bigpaintball.lua");
             module.SendLuaScript(Script);
         }
+
+        private void gunaButton14_Click(object sender, EventArgs e)
+        {
+            WebClient wb = new WebClient();
+            string Script = wb.DownloadString("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Legends%20Of%20Speed/Script.lua");
+            module.SendLuaScript(Script);
+        }
+
+        private void gunaButton18_Click(object sender, EventArgs e)
+        {
+            WebClient wb = new WebClient();
+            string Script = wb.DownloadString("LINK");
+            module.SendLuaScript(Script);
+        }
+
+        private void gunaButton20_Click(object sender, EventArgs e)
+        {
+            WebClient wb = new WebClient();
+            string Script = wb.DownloadString("LINK");
+            module.SendLuaScript(Script);
+        }
+
+        private void gunaButton19_Click(object sender, EventArgs e)
+        {
+            WebClient wb = new WebClient();
+            string Script = wb.DownloadString("LINK");
+            module.SendLuaScript(Script);
+        }
+
+        private void gunaButton22_Click(object sender, EventArgs e)
+        {
+            WebClient wb = new WebClient();
+            string Script = wb.DownloadString("LINK");
+            module.SendLuaScript(Script);
+        }
+
+        private void gunaButton15_Click(object sender, EventArgs e)
+        {
+            WebClient wb = new WebClient();
+            string Script = wb.DownloadString("LINK");
+            module.SendLuaScript(Script);
+        }
+
+        private void gunaButton21_Click(object sender, EventArgs e)
+        {
+            WebClient wb = new WebClient();
+            string Script = wb.DownloadString("LINK");
+            module.SendLuaScript(Script);
+        }
+
+        private void gunaButton26_Click(object sender, EventArgs e)
+        {
+            WebClient wb = new WebClient();
+            string Script = wb.DownloadString("LINK");
+            module.SendLuaScript(Script);
+        }
+
+        private void gunaButton25_Click(object sender, EventArgs e)
+        {
+            WebClient wb = new WebClient();
+            string Script = wb.DownloadString("LINK");
+            module.SendLuaScript(Script);
+        }
+
+        private void gunaButton24_Click(object sender, EventArgs e)
+        {
+            WebClient wb = new WebClient();
+            string Script = wb.DownloadString("LINK");
+            module.SendLuaScript(Script);
+        }
+
+        private void gunaButton23_Click(object sender, EventArgs e)
+        {
+            WebClient wb = new WebClient();
+            string Script = wb.DownloadString("LINK");
+            module.SendLuaScript(Script);
+        }
+
+        private void gunaButton28_Click(object sender, EventArgs e)
+        {
+            WebClient wb = new WebClient();
+            string Script = wb.DownloadString("LINK");
+            module.SendLuaScript(Script);
+        }
+
+        private void gunaButton27_Click(object sender, EventArgs e)
+        {
+            WebClient wb = new WebClient();
+            string Script = wb.DownloadString("LINK");
+            module.SendLuaScript(Script);
+        }
     }
 }

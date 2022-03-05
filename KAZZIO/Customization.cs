@@ -17,11 +17,6 @@ namespace KAZZIO
             InitializeComponent();
         }
 
-        private void bunifuToggleSwitch4_CheckedChanged(object sender, Bunifu.UI.WinForms.BunifuToggleSwitch.CheckedChangedEventArgs e)
-        {
-
-        }
-
         private void bunifuiOSSwitch1_CheckedChanged(object sender, Bunifu.UI.WinForms.BunifuToggleSwitch.CheckedChangedEventArgs e)
         {
             

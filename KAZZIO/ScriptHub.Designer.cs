@@ -442,7 +442,7 @@
             this.gunaButton10.ForeColor = System.Drawing.Color.White;
             this.gunaButton10.Image = null;
             this.gunaButton10.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton10.Location = new System.Drawing.Point(150, 200);
+            this.gunaButton10.Location = new System.Drawing.Point(276, 200);
             this.gunaButton10.Margin = new System.Windows.Forms.Padding(4);
             this.gunaButton10.Name = "gunaButton10";
             this.gunaButton10.OnHoverBaseColor = System.Drawing.Color.Gray;
@@ -496,7 +496,7 @@
             this.gunaButton12.ForeColor = System.Drawing.Color.White;
             this.gunaButton12.Image = null;
             this.gunaButton12.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton12.Location = new System.Drawing.Point(22, 200);
+            this.gunaButton12.Location = new System.Drawing.Point(150, 200);
             this.gunaButton12.Margin = new System.Windows.Forms.Padding(4);
             this.gunaButton12.Name = "gunaButton12";
             this.gunaButton12.OnHoverBaseColor = System.Drawing.Color.Gray;
@@ -550,7 +550,7 @@
             this.gunaButton14.ForeColor = System.Drawing.Color.White;
             this.gunaButton14.Image = null;
             this.gunaButton14.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton14.Location = new System.Drawing.Point(276, 200);
+            this.gunaButton14.Location = new System.Drawing.Point(22, 200);
             this.gunaButton14.Margin = new System.Windows.Forms.Padding(4);
             this.gunaButton14.Name = "gunaButton14";
             this.gunaButton14.OnHoverBaseColor = System.Drawing.Color.Gray;
@@ -560,7 +560,9 @@
             this.gunaButton14.OnPressedColor = System.Drawing.Color.Black;
             this.gunaButton14.Size = new System.Drawing.Size(110, 40);
             this.gunaButton14.TabIndex = 52;
+            this.gunaButton14.Text = "Legends of\nSpeed";
             this.gunaButton14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaButton14.Click += new System.EventHandler(this.gunaButton14_Click);
             // 
             // gunaButton15
             // 
@@ -586,6 +588,7 @@
             this.gunaButton15.Size = new System.Drawing.Size(110, 40);
             this.gunaButton15.TabIndex = 53;
             this.gunaButton15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaButton15.Click += new System.EventHandler(this.gunaButton15_Click);
             // 
             // gunaButton18
             // 
@@ -611,6 +614,7 @@
             this.gunaButton18.Size = new System.Drawing.Size(110, 40);
             this.gunaButton18.TabIndex = 54;
             this.gunaButton18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaButton18.Click += new System.EventHandler(this.gunaButton18_Click);
             // 
             // gunaButton19
             // 
@@ -636,6 +640,7 @@
             this.gunaButton19.Size = new System.Drawing.Size(110, 40);
             this.gunaButton19.TabIndex = 55;
             this.gunaButton19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaButton19.Click += new System.EventHandler(this.gunaButton19_Click);
             // 
             // gunaButton20
             // 
@@ -661,6 +666,7 @@
             this.gunaButton20.Size = new System.Drawing.Size(110, 40);
             this.gunaButton20.TabIndex = 56;
             this.gunaButton20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaButton20.Click += new System.EventHandler(this.gunaButton20_Click);
             // 
             // gunaButton21
             // 
@@ -686,6 +692,7 @@
             this.gunaButton21.Size = new System.Drawing.Size(110, 40);
             this.gunaButton21.TabIndex = 57;
             this.gunaButton21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaButton21.Click += new System.EventHandler(this.gunaButton21_Click);
             // 
             // gunaButton22
             // 
@@ -711,6 +718,7 @@
             this.gunaButton22.Size = new System.Drawing.Size(110, 40);
             this.gunaButton22.TabIndex = 58;
             this.gunaButton22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaButton22.Click += new System.EventHandler(this.gunaButton22_Click);
             // 
             // gunaButton23
             // 
@@ -736,6 +744,7 @@
             this.gunaButton23.Size = new System.Drawing.Size(110, 40);
             this.gunaButton23.TabIndex = 59;
             this.gunaButton23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaButton23.Click += new System.EventHandler(this.gunaButton23_Click);
             // 
             // gunaButton24
             // 
@@ -761,6 +770,7 @@
             this.gunaButton24.Size = new System.Drawing.Size(110, 40);
             this.gunaButton24.TabIndex = 60;
             this.gunaButton24.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaButton24.Click += new System.EventHandler(this.gunaButton24_Click);
             // 
             // gunaButton25
             // 
@@ -786,6 +796,7 @@
             this.gunaButton25.Size = new System.Drawing.Size(110, 40);
             this.gunaButton25.TabIndex = 61;
             this.gunaButton25.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaButton25.Click += new System.EventHandler(this.gunaButton25_Click);
             // 
             // gunaButton26
             // 
@@ -811,6 +822,7 @@
             this.gunaButton26.Size = new System.Drawing.Size(110, 40);
             this.gunaButton26.TabIndex = 62;
             this.gunaButton26.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaButton26.Click += new System.EventHandler(this.gunaButton26_Click);
             // 
             // gunaButton27
             // 
@@ -836,6 +848,7 @@
             this.gunaButton27.Size = new System.Drawing.Size(110, 40);
             this.gunaButton27.TabIndex = 63;
             this.gunaButton27.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaButton27.Click += new System.EventHandler(this.gunaButton27_Click);
             // 
             // gunaButton28
             // 
@@ -861,6 +874,7 @@
             this.gunaButton28.Size = new System.Drawing.Size(110, 40);
             this.gunaButton28.TabIndex = 64;
             this.gunaButton28.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaButton28.Click += new System.EventHandler(this.gunaButton28_Click);
             // 
             // universalScripts1
             // 
