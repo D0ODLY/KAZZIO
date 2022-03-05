@@ -19,6 +19,7 @@ namespace KAZZIO
         public static class globals
         {
             public static bool injected = false;
+            public static bool scripthub = true;
         }
         public FrmInicial()
         {
@@ -169,16 +170,6 @@ namespace KAZZIO
             }
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void fastColoredTextBox1_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void gunaButton8_Click(object sender, EventArgs e)
         {
             SidePanel.Height = gunaButton8.Height;
@@ -194,15 +185,9 @@ namespace KAZZIO
             info openform = new info();
             openform.Show();
         }
-
         private void gunaButton12_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("https://discord.gg/jrCh7ANX7g");
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void gunaButton5_Click(object sender, EventArgs e)
@@ -212,11 +197,6 @@ namespace KAZZIO
             this.Show();
             options1.SendToBack();
             options1.Hide();
-        }
-
-        private void SidePanel_Paint(object sender, PaintEventArgs e)
-        {
-
         }
 
         private void options1_Load(object sender, EventArgs e)

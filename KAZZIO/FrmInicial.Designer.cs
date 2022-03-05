@@ -83,7 +83,6 @@
             this.label2.Size = new System.Drawing.Size(33, 21);
             this.label2.TabIndex = 16;
             this.label2.Text = "V4";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             this.label2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.label2_MouseDown);
             this.label2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label2_MouseMove);
             // 
@@ -177,7 +176,6 @@
             this.SidePanel.Name = "SidePanel";
             this.SidePanel.Size = new System.Drawing.Size(4, 43);
             this.SidePanel.TabIndex = 12;
-            this.SidePanel.Paint += new System.Windows.Forms.PaintEventHandler(this.SidePanel_Paint);
             // 
             // gunaButton13
             // 
@@ -284,6 +282,7 @@
             this.gunaButton7.Size = new System.Drawing.Size(42, 36);
             this.gunaButton7.TabIndex = 11;
             this.gunaButton7.Text = "";
+            this.gunaButton7.Visible = globals.scripthub;
             this.gunaButton7.Click += new System.EventHandler(this.gunaButton7_Click);
             // 
             // gunaButton5
@@ -469,7 +468,6 @@
             this.fastColoredTextBox1.CurrentLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.fastColoredTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.fastColoredTextBox1.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
-            this.fastColoredTextBox1.Font = new System.Drawing.Font("Courier New", 9.75F);
             this.fastColoredTextBox1.ForeColor = System.Drawing.Color.White;
             this.fastColoredTextBox1.IndentBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.fastColoredTextBox1.IsReplaceMode = false;
@@ -491,7 +489,6 @@
     "\nWhat\'s new?\r\n\r\n-New loadout\r\n-New Buttons\r\n-New features\r\n-New Scripts\r\n-New lo" +
     "ader\r\n\r\nEnjoy!";
             this.fastColoredTextBox1.Zoom = 100;
-            this.fastColoredTextBox1.Load += new System.EventHandler(this.fastColoredTextBox1_Load);
             // 
             // listBox1
             // 
