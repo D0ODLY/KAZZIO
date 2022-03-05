@@ -269,11 +269,11 @@
             this.gunaButton7.BorderColor = System.Drawing.Color.Black;
             this.gunaButton7.DialogResult = System.Windows.Forms.DialogResult.None;
             this.gunaButton7.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton7.Font = new System.Drawing.Font("Segoe MDL2 Assets", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaButton7.Font = new System.Drawing.Font("Segoe UI Emoji", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaButton7.ForeColor = System.Drawing.Color.White;
             this.gunaButton7.Image = null;
             this.gunaButton7.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton7.Location = new System.Drawing.Point(4, 67);
+            this.gunaButton7.Location = new System.Drawing.Point(2, 67);
             this.gunaButton7.Margin = new System.Windows.Forms.Padding(4);
             this.gunaButton7.Name = "gunaButton7";
             this.gunaButton7.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
@@ -283,7 +283,7 @@
             this.gunaButton7.OnPressedColor = System.Drawing.Color.Black;
             this.gunaButton7.Size = new System.Drawing.Size(42, 36);
             this.gunaButton7.TabIndex = 11;
-            this.gunaButton7.Text = "";
+            this.gunaButton7.Text = "📜";
             this.gunaButton7.Click += new System.EventHandler(this.gunaButton7_Click);
             // 
             // gunaButton5
@@ -458,7 +458,7 @@
         '\'',
         '\''};
             this.fastColoredTextBox1.AutoIndentCharsPatterns = "\r\n^\\s*[\\w\\.]+(\\s\\w+)?\\s*(?<range>=)\\s*(?<range>.+)\r\n";
-            this.fastColoredTextBox1.AutoScrollMinSize = new System.Drawing.Size(363, 182);
+            this.fastColoredTextBox1.AutoScrollMinSize = new System.Drawing.Size(363, 210);
             this.fastColoredTextBox1.BackBrush = null;
             this.fastColoredTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.fastColoredTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -469,7 +469,6 @@
             this.fastColoredTextBox1.CurrentLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.fastColoredTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.fastColoredTextBox1.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
-            this.fastColoredTextBox1.Font = new System.Drawing.Font("Courier New", 9.75F);
             this.fastColoredTextBox1.ForeColor = System.Drawing.Color.White;
             this.fastColoredTextBox1.IndentBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.fastColoredTextBox1.IsReplaceMode = false;
@@ -489,7 +488,7 @@
             this.fastColoredTextBox1.TabIndex = 9;
             this.fastColoredTextBox1.Text = " were you still using V3? BRUHHHH\r\n\r\n                   Welcome to KAZZIO V.4!\r\n\r" +
     "\nWhat\'s new?\r\n\r\n-New loadout\r\n-New Buttons\r\n-New features\r\n-New Scripts\r\n-New lo" +
-    "ader\r\n\r\nEnjoy!";
+    "ader\r\n-More Custom Options\r\n\r\n\r\nEnjoy!";
             this.fastColoredTextBox1.Zoom = 100;
             this.fastColoredTextBox1.Load += new System.EventHandler(this.fastColoredTextBox1_Load);
             // 

@@ -64,5 +64,10 @@ namespace KAZZIO
                 this.Top += e.Y - lastPoint.Y;
             }
         }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
