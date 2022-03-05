@@ -47,6 +47,7 @@ namespace KAZZIO
             gunaButton4.BringToFront();
             gunaButton3.BringToFront();
             gunaButton5.BringToFront();
+            gunaPanel1.BringToFront();
         }
 
         private void gunaButton3_Click(object sender, EventArgs e)
