@@ -281,12 +281,7 @@
             this.gunaButton7.OnPressedColor = System.Drawing.Color.Black;
             this.gunaButton7.Size = new System.Drawing.Size(42, 36);
             this.gunaButton7.TabIndex = 11;
-<<<<<<< HEAD
             this.gunaButton7.Text = "📜";
-=======
-            this.gunaButton7.Text = "";
-            this.gunaButton7.Visible = globals.scripthub;
->>>>>>> 886315d9a86df06cc147959b320d9940619c7b71
             this.gunaButton7.Click += new System.EventHandler(this.gunaButton7_Click);
             // 
             // gunaButton5
@@ -472,6 +467,7 @@
             this.fastColoredTextBox1.CurrentLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.fastColoredTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.fastColoredTextBox1.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
+            this.fastColoredTextBox1.Font = new System.Drawing.Font("Courier New", 9.75F);
             this.fastColoredTextBox1.ForeColor = System.Drawing.Color.White;
             this.fastColoredTextBox1.IndentBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.fastColoredTextBox1.IsReplaceMode = false;
