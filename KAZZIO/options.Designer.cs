@@ -61,7 +61,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Transparent;
-            this.label2.Location = new System.Drawing.Point(187, 49);
+            this.label2.Location = new System.Drawing.Point(187, 39);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(89, 22);
             this.label2.TabIndex = 34;
@@ -161,7 +161,7 @@
             this.bunifuiOSSwitch1.Checked = false;
             this.bunifuiOSSwitch1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuiOSSwitch1.InnerCirclePadding = 3;
-            this.bunifuiOSSwitch1.Location = new System.Drawing.Point(407, 49);
+            this.bunifuiOSSwitch1.Location = new System.Drawing.Point(410, 39);
             this.bunifuiOSSwitch1.Name = "bunifuiOSSwitch1";
             this.bunifuiOSSwitch1.Size = new System.Drawing.Size(41, 22);
             this.bunifuiOSSwitch1.TabIndex = 37;

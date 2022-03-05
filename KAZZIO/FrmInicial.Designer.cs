@@ -83,7 +83,6 @@
             this.label2.Size = new System.Drawing.Size(33, 21);
             this.label2.TabIndex = 16;
             this.label2.Text = "V4";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             this.label2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.label2_MouseDown);
             this.label2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.label2_MouseMove);
             // 
@@ -177,7 +176,6 @@
             this.SidePanel.Name = "SidePanel";
             this.SidePanel.Size = new System.Drawing.Size(4, 43);
             this.SidePanel.TabIndex = 12;
-            this.SidePanel.Paint += new System.Windows.Forms.PaintEventHandler(this.SidePanel_Paint);
             // 
             // gunaButton13
             // 
@@ -283,7 +281,12 @@
             this.gunaButton7.OnPressedColor = System.Drawing.Color.Black;
             this.gunaButton7.Size = new System.Drawing.Size(42, 36);
             this.gunaButton7.TabIndex = 11;
+<<<<<<< HEAD
             this.gunaButton7.Text = "📜";
+=======
+            this.gunaButton7.Text = "";
+            this.gunaButton7.Visible = globals.scripthub;
+>>>>>>> 886315d9a86df06cc147959b320d9940619c7b71
             this.gunaButton7.Click += new System.EventHandler(this.gunaButton7_Click);
             // 
             // gunaButton5
@@ -490,7 +493,6 @@
     "\nWhat\'s new?\r\n\r\n-New loadout\r\n-New Buttons\r\n-New features\r\n-New Scripts\r\n-New lo" +
     "ader\r\n-More Custom Options\r\n\r\n\r\nEnjoy!";
             this.fastColoredTextBox1.Zoom = 100;
-            this.fastColoredTextBox1.Load += new System.EventHandler(this.fastColoredTextBox1_Load);
             // 
             // listBox1
             // 

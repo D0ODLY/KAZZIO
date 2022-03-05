@@ -19,7 +19,7 @@ namespace KAZZIO
 
         private void bunifuiOSSwitch1_CheckedChanged(object sender, Bunifu.UI.WinForms.BunifuToggleSwitch.CheckedChangedEventArgs e)
         {
-            
+            FrmInicial.globals.scripthub = bunifuiOSSwitch1.Value;
         }
     }
 }
