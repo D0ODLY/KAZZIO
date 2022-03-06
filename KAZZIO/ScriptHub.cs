@@ -315,28 +315,28 @@ namespace KAZZIO
         private void gunaButton18_Click(object sender, EventArgs e)
         {
             WebClient wb = new WebClient();
-            string Script = wb.DownloadString("LINK");
+            string Script = wb.DownloadString("https://raw.githubusercontent.com/ZaRdoOx/weapon-figting/main/Weapon-Fighting-Simulator");
             module.SendLuaScript(Script);
         }
 
         private void gunaButton20_Click(object sender, EventArgs e)
         {
             WebClient wb = new WebClient();
-            string Script = wb.DownloadString("LINK");
+            string Script = wb.DownloadString("https://raw.githubusercontent.com/naypramx/naypramxhub/main/pornhubxvideo");
             module.SendLuaScript(Script);
         }
 
         private void gunaButton19_Click(object sender, EventArgs e)
         {
             WebClient wb = new WebClient();
-            string Script = wb.DownloadString("LINK");
+            string Script = wb.DownloadString("https://raw.githubusercontent.com/KeoneGithub/KeoneGithub/main/WildWestLean");
             module.SendLuaScript(Script);
         }
 
         private void gunaButton22_Click(object sender, EventArgs e)
         {
             WebClient wb = new WebClient();
-            string Script = wb.DownloadString("LINK");
+            string Script = wb.DownloadString("https://raw.githubusercontent.com/zerpqe/script/main/NinjaLegends.lua");
             module.SendLuaScript(Script);
         }
 

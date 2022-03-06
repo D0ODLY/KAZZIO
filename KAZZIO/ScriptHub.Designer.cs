@@ -442,7 +442,7 @@
             this.gunaButton10.ForeColor = System.Drawing.Color.White;
             this.gunaButton10.Image = null;
             this.gunaButton10.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton10.Location = new System.Drawing.Point(276, 200);
+            this.gunaButton10.Location = new System.Drawing.Point(403, 200);
             this.gunaButton10.Margin = new System.Windows.Forms.Padding(4);
             this.gunaButton10.Name = "gunaButton10";
             this.gunaButton10.OnHoverBaseColor = System.Drawing.Color.Gray;
@@ -603,7 +603,7 @@
             this.gunaButton18.ForeColor = System.Drawing.Color.White;
             this.gunaButton18.Image = null;
             this.gunaButton18.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton18.Location = new System.Drawing.Point(403, 200);
+            this.gunaButton18.Location = new System.Drawing.Point(150, 257);
             this.gunaButton18.Margin = new System.Windows.Forms.Padding(4);
             this.gunaButton18.Name = "gunaButton18";
             this.gunaButton18.OnHoverBaseColor = System.Drawing.Color.Gray;
@@ -613,6 +613,7 @@
             this.gunaButton18.OnPressedColor = System.Drawing.Color.Black;
             this.gunaButton18.Size = new System.Drawing.Size(110, 40);
             this.gunaButton18.TabIndex = 54;
+            this.gunaButton18.Text = "Weapon Fighting\nSimulator";
             this.gunaButton18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButton18.Click += new System.EventHandler(this.gunaButton18_Click);
             // 
@@ -639,6 +640,7 @@
             this.gunaButton19.OnPressedColor = System.Drawing.Color.Black;
             this.gunaButton19.Size = new System.Drawing.Size(110, 40);
             this.gunaButton19.TabIndex = 55;
+            this.gunaButton19.Text = "The Wild West";
             this.gunaButton19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButton19.Click += new System.EventHandler(this.gunaButton19_Click);
             // 
@@ -665,6 +667,7 @@
             this.gunaButton20.OnPressedColor = System.Drawing.Color.Black;
             this.gunaButton20.Size = new System.Drawing.Size(110, 40);
             this.gunaButton20.TabIndex = 56;
+            this.gunaButton20.Text = "Strongman\nSimulator";
             this.gunaButton20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButton20.Click += new System.EventHandler(this.gunaButton20_Click);
             // 
@@ -707,7 +710,7 @@
             this.gunaButton22.ForeColor = System.Drawing.Color.White;
             this.gunaButton22.Image = null;
             this.gunaButton22.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton22.Location = new System.Drawing.Point(150, 257);
+            this.gunaButton22.Location = new System.Drawing.Point(276, 200);
             this.gunaButton22.Margin = new System.Windows.Forms.Padding(4);
             this.gunaButton22.Name = "gunaButton22";
             this.gunaButton22.OnHoverBaseColor = System.Drawing.Color.Gray;
@@ -717,6 +720,7 @@
             this.gunaButton22.OnPressedColor = System.Drawing.Color.Black;
             this.gunaButton22.Size = new System.Drawing.Size(110, 40);
             this.gunaButton22.TabIndex = 58;
+            this.gunaButton22.Text = "Ninja Legends";
             this.gunaButton22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButton22.Click += new System.EventHandler(this.gunaButton22_Click);
             // 

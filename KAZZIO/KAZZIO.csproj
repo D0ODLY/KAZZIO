@@ -212,5 +212,8 @@
   <ItemGroup>
     <None Include="Resources\discord-logo-icon-4.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\v4.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
