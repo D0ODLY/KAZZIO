@@ -21,8 +21,7 @@ namespace KAZZIO
 
         private void options_Load(object sender, EventArgs e)
         {
-            customization1.Hide();
-            customization1.SendToBack();
+
         }
 
         private void bunifuiOSSwitch1_CheckedChanged(object sender, Bunifu.UI.WinForms.BunifuToggleSwitch.CheckedChangedEventArgs e)
@@ -41,29 +40,25 @@ namespace KAZZIO
 
         private void gunaButton5_Click(object sender, EventArgs e)
         {
-
-            customization1.BringToFront();
-            customization1.Show();
             gunaButton4.BringToFront();
             gunaButton3.BringToFront();
-            gunaButton5.BringToFront();
             gunaPanel1.BringToFront();
         }
 
         private void gunaButton3_Click(object sender, EventArgs e)
         {
             gunaButton4.BringToFront();
-            gunaButton5.BringToFront();
         }
 
         private void gunaButton4_Click(object sender, EventArgs e)
         {
-
-            customization1.Hide();
-            customization1.SendToBack();
             gunaButton4.BringToFront();
             gunaButton3.BringToFront();
-            gunaButton5.BringToFront();
+        }
+
+        private void bunifuToggleSwitch1_CheckedChanged(object sender, Bunifu.UI.WinForms.BunifuToggleSwitch.CheckedChangedEventArgs e)
+        {
+
         }
     }
 }

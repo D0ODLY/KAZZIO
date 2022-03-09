@@ -32,15 +32,18 @@
             Bunifu.UI.WinForms.BunifuToggleSwitch.ToggleState toggleState1 = new Bunifu.UI.WinForms.BunifuToggleSwitch.ToggleState();
             Bunifu.UI.WinForms.BunifuToggleSwitch.ToggleState toggleState2 = new Bunifu.UI.WinForms.BunifuToggleSwitch.ToggleState();
             Bunifu.UI.WinForms.BunifuToggleSwitch.ToggleState toggleState3 = new Bunifu.UI.WinForms.BunifuToggleSwitch.ToggleState();
+            Bunifu.UI.WinForms.BunifuToggleSwitch.ToggleState toggleState4 = new Bunifu.UI.WinForms.BunifuToggleSwitch.ToggleState();
+            Bunifu.UI.WinForms.BunifuToggleSwitch.ToggleState toggleState5 = new Bunifu.UI.WinForms.BunifuToggleSwitch.ToggleState();
+            Bunifu.UI.WinForms.BunifuToggleSwitch.ToggleState toggleState6 = new Bunifu.UI.WinForms.BunifuToggleSwitch.ToggleState();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.gunaButton4 = new Guna.UI.WinForms.GunaButton();
             this.gunaButton3 = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton5 = new Guna.UI.WinForms.GunaButton();
             this.gunaPanel1 = new Guna.UI.WinForms.GunaPanel();
             this.bunifuiOSSwitch1 = new Bunifu.UI.WinForms.BunifuToggleSwitch();
             this.gunaButton1 = new Guna.UI.WinForms.GunaButton();
-            this.customization1 = new KAZZIO.Customization();
+            this.label1 = new System.Windows.Forms.Label();
+            this.bunifuToggleSwitch1 = new Bunifu.UI.WinForms.BunifuToggleSwitch();
             this.SuspendLayout();
             // 
             // label3
@@ -80,7 +83,7 @@
             this.gunaButton4.ForeColor = System.Drawing.Color.White;
             this.gunaButton4.Image = null;
             this.gunaButton4.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton4.Location = new System.Drawing.Point(15, 64);
+            this.gunaButton4.Location = new System.Drawing.Point(20, 75);
             this.gunaButton4.Margin = new System.Windows.Forms.Padding(4);
             this.gunaButton4.Name = "gunaButton4";
             this.gunaButton4.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(42)))), ((int)(((byte)(42)))));
@@ -106,7 +109,7 @@
             this.gunaButton3.ForeColor = System.Drawing.Color.White;
             this.gunaButton3.Image = null;
             this.gunaButton3.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton3.Location = new System.Drawing.Point(0, 126);
+            this.gunaButton3.Location = new System.Drawing.Point(4, 109);
             this.gunaButton3.Margin = new System.Windows.Forms.Padding(4);
             this.gunaButton3.Name = "gunaButton3";
             this.gunaButton3.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(42)))), ((int)(((byte)(42)))));
@@ -118,32 +121,6 @@
             this.gunaButton3.TabIndex = 40;
             this.gunaButton3.Text = "Custom Themes (WIP)";
             this.gunaButton3.Click += new System.EventHandler(this.gunaButton3_Click);
-            // 
-            // gunaButton5
-            // 
-            this.gunaButton5.Animated = true;
-            this.gunaButton5.AnimationHoverSpeed = 0.05F;
-            this.gunaButton5.AnimationSpeed = 0.01F;
-            this.gunaButton5.BaseColor = System.Drawing.Color.Transparent;
-            this.gunaButton5.BorderColor = System.Drawing.Color.Black;
-            this.gunaButton5.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton5.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton5.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaButton5.ForeColor = System.Drawing.Color.White;
-            this.gunaButton5.Image = null;
-            this.gunaButton5.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton5.Location = new System.Drawing.Point(23, 95);
-            this.gunaButton5.Margin = new System.Windows.Forms.Padding(4);
-            this.gunaButton5.Name = "gunaButton5";
-            this.gunaButton5.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(42)))), ((int)(((byte)(42)))));
-            this.gunaButton5.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton5.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton5.OnHoverImage = null;
-            this.gunaButton5.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton5.Size = new System.Drawing.Size(101, 23);
-            this.gunaButton5.TabIndex = 41;
-            this.gunaButton5.Text = "Customization";
-            this.gunaButton5.Click += new System.EventHandler(this.gunaButton5_Click);
             // 
             // gunaPanel1
             // 
@@ -221,28 +198,75 @@
             this.gunaButton1.TabIndex = 36;
             this.gunaButton1.Click += new System.EventHandler(this.gunaButton1_Click);
             // 
-            // customization1
+            // label1
             // 
-            this.customization1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.customization1.Location = new System.Drawing.Point(0, 0);
-            this.customization1.Name = "customization1";
-            this.customization1.Size = new System.Drawing.Size(529, 238);
-            this.customization1.TabIndex = 43;
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Transparent;
+            this.label1.Location = new System.Drawing.Point(187, 78);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(108, 22);
+            this.label1.TabIndex = 43;
+            this.label1.Text = "Auto Attach";
+            // 
+            // bunifuToggleSwitch1
+            // 
+            this.bunifuToggleSwitch1.Animation = 5;
+            this.bunifuToggleSwitch1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuToggleSwitch1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuToggleSwitch1.BackgroundImage")));
+            this.bunifuToggleSwitch1.Checked = false;
+            this.bunifuToggleSwitch1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuToggleSwitch1.InnerCirclePadding = 3;
+            this.bunifuToggleSwitch1.Location = new System.Drawing.Point(410, 78);
+            this.bunifuToggleSwitch1.Name = "bunifuToggleSwitch1";
+            this.bunifuToggleSwitch1.Size = new System.Drawing.Size(41, 22);
+            this.bunifuToggleSwitch1.TabIndex = 44;
+            this.bunifuToggleSwitch1.ThumbMargin = 3;
+            toggleState4.BackColor = System.Drawing.Color.DarkGray;
+            toggleState4.BackColorInner = System.Drawing.Color.White;
+            toggleState4.BorderColor = System.Drawing.Color.DarkGray;
+            toggleState4.BorderColorInner = System.Drawing.Color.White;
+            toggleState4.BorderRadius = 17;
+            toggleState4.BorderRadiusInner = 11;
+            toggleState4.BorderThickness = 1;
+            toggleState4.BorderThicknessInner = 1;
+            this.bunifuToggleSwitch1.ToggleStateDisabled = toggleState4;
+            toggleState5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            toggleState5.BackColorInner = System.Drawing.Color.White;
+            toggleState5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            toggleState5.BorderColorInner = System.Drawing.Color.White;
+            toggleState5.BorderRadius = 17;
+            toggleState5.BorderRadiusInner = 11;
+            toggleState5.BorderThickness = 1;
+            toggleState5.BorderThicknessInner = 1;
+            this.bunifuToggleSwitch1.ToggleStateOff = toggleState5;
+            toggleState6.BackColor = System.Drawing.Color.DodgerBlue;
+            toggleState6.BackColorInner = System.Drawing.Color.White;
+            toggleState6.BorderColor = System.Drawing.Color.DodgerBlue;
+            toggleState6.BorderColorInner = System.Drawing.Color.White;
+            toggleState6.BorderRadius = 17;
+            toggleState6.BorderRadiusInner = 11;
+            toggleState6.BorderThickness = 1;
+            toggleState6.BorderThicknessInner = 1;
+            this.bunifuToggleSwitch1.ToggleStateOn = toggleState6;
+            this.bunifuToggleSwitch1.Value = false;
+            this.bunifuToggleSwitch1.CheckedChanged += new System.EventHandler<Bunifu.UI.WinForms.BunifuToggleSwitch.CheckedChangedEventArgs>(this.bunifuToggleSwitch1_CheckedChanged);
             // 
             // options
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.Controls.Add(this.bunifuToggleSwitch1);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.gunaPanel1);
-            this.Controls.Add(this.gunaButton5);
             this.Controls.Add(this.gunaButton3);
             this.Controls.Add(this.gunaButton4);
             this.Controls.Add(this.bunifuiOSSwitch1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.gunaButton1);
-            this.Controls.Add(this.customization1);
             this.Name = "options";
             this.Size = new System.Drawing.Size(529, 238);
             this.Load += new System.EventHandler(this.options_Load);
@@ -259,8 +283,8 @@
         private Bunifu.UI.WinForms.BunifuToggleSwitch bunifuiOSSwitch1;
         private Guna.UI.WinForms.GunaButton gunaButton4;
         private Guna.UI.WinForms.GunaButton gunaButton3;
-        private Guna.UI.WinForms.GunaButton gunaButton5;
         private Guna.UI.WinForms.GunaPanel gunaPanel1;
-        private Customization customization1;
+        private System.Windows.Forms.Label label1;
+        private Bunifu.UI.WinForms.BunifuToggleSwitch bunifuToggleSwitch1;
     }
 }

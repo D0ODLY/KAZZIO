@@ -86,12 +86,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Customization.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Customization.Designer.cs">
-      <DependentUpon>Customization.cs</DependentUpon>
-    </Compile>
     <Compile Include="FrmInicial.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -136,9 +130,6 @@
     <Compile Include="UniversalScripts.Designer.cs">
       <DependentUpon>UniversalScripts.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Customization.resx">
-      <DependentUpon>Customization.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FrmInicial.resx">
       <DependentUpon>FrmInicial.cs</DependentUpon>
       <SubType>Designer</SubType>
