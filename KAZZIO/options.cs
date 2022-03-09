@@ -7,12 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WeAreDevs_API;
 
 namespace KAZZIO
 {
     public partial class options : UserControl
     {
+
         public static options instance;
+        ExploitAPI module = new ExploitAPI(); bool autoattach = false; bool AAbutton = false;
         public options()
         {
             InitializeComponent();
@@ -57,6 +60,21 @@ namespace KAZZIO
         }
 
         private void bunifuToggleSwitch1_CheckedChanged(object sender, Bunifu.UI.WinForms.BunifuToggleSwitch.CheckedChangedEventArgs e)
+        {
+            if (AAbutton == false)
+            {
+                AAbutton = true;
+                AutoAttachTimer.Enabled = true;
+            }
+            else
+            {
+
+                AAbutton = false;
+                AutoAttachTimer.Enabled = false;
+            }
+        }
+
+        private void AutoAttachTimer_Tick(object sender, EventArgs e)
         {
 
         }

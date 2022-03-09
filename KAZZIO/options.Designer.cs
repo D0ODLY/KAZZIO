@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(options));
             Bunifu.UI.WinForms.BunifuToggleSwitch.ToggleState toggleState1 = new Bunifu.UI.WinForms.BunifuToggleSwitch.ToggleState();
             Bunifu.UI.WinForms.BunifuToggleSwitch.ToggleState toggleState2 = new Bunifu.UI.WinForms.BunifuToggleSwitch.ToggleState();
@@ -44,6 +45,7 @@
             this.gunaButton1 = new Guna.UI.WinForms.GunaButton();
             this.label1 = new System.Windows.Forms.Label();
             this.bunifuToggleSwitch1 = new Bunifu.UI.WinForms.BunifuToggleSwitch();
+            this.AutoAttachTimer = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // label3
@@ -253,6 +255,10 @@
             this.bunifuToggleSwitch1.Value = false;
             this.bunifuToggleSwitch1.CheckedChanged += new System.EventHandler<Bunifu.UI.WinForms.BunifuToggleSwitch.CheckedChangedEventArgs>(this.bunifuToggleSwitch1_CheckedChanged);
             // 
+            // AutoAttachTimer
+            // 
+            this.AutoAttachTimer.Tick += new System.EventHandler(this.AutoAttachTimer_Tick);
+            // 
             // options
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -286,5 +292,6 @@
         private Guna.UI.WinForms.GunaPanel gunaPanel1;
         private System.Windows.Forms.Label label1;
         private Bunifu.UI.WinForms.BunifuToggleSwitch bunifuToggleSwitch1;
+        private System.Windows.Forms.Timer AutoAttachTimer;
     }
 }
