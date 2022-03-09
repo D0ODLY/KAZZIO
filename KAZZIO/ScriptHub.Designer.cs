@@ -164,16 +164,17 @@
             this.gunaButton8.ForeColor = System.Drawing.Color.White;
             this.gunaButton8.Image = null;
             this.gunaButton8.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton8.Location = new System.Drawing.Point(232, 62);
+            this.gunaButton8.Location = new System.Drawing.Point(0, 62);
             this.gunaButton8.Name = "gunaButton8";
             this.gunaButton8.OnHoverBaseColor = System.Drawing.Color.Transparent;
             this.gunaButton8.OnHoverBorderColor = System.Drawing.Color.Transparent;
             this.gunaButton8.OnHoverForeColor = System.Drawing.Color.White;
             this.gunaButton8.OnHoverImage = null;
             this.gunaButton8.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton8.Size = new System.Drawing.Size(82, 20);
+            this.gunaButton8.Size = new System.Drawing.Size(322, 20);
             this.gunaButton8.TabIndex = 27;
             this.gunaButton8.Text = "GameHub";
+            this.gunaButton8.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.gunaButton8.Click += new System.EventHandler(this.gunaButton8_Click);
             // 
             // gunaButton9
@@ -189,14 +190,14 @@
             this.gunaButton9.ForeColor = System.Drawing.Color.White;
             this.gunaButton9.Image = null;
             this.gunaButton9.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton9.Location = new System.Drawing.Point(320, 62);
+            this.gunaButton9.Location = new System.Drawing.Point(325, 62);
             this.gunaButton9.Name = "gunaButton9";
             this.gunaButton9.OnHoverBaseColor = System.Drawing.Color.Transparent;
             this.gunaButton9.OnHoverBorderColor = System.Drawing.Color.Transparent;
             this.gunaButton9.OnHoverForeColor = System.Drawing.Color.White;
             this.gunaButton9.OnHoverImage = null;
             this.gunaButton9.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton9.Size = new System.Drawing.Size(116, 20);
+            this.gunaButton9.Size = new System.Drawing.Size(336, 20);
             this.gunaButton9.TabIndex = 28;
             this.gunaButton9.Text = "Universal Scripts";
             this.gunaButton9.Click += new System.EventHandler(this.gunaButton9_Click);

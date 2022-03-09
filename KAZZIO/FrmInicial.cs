@@ -26,6 +26,18 @@ namespace KAZZIO
             InitializeComponent();
             instance = this;
         }
+
+        public static bool IsAPIAttached()
+        {
+            if (DLLPipes.NamedPipeExist(DLLPipes.luapipename))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
         Point lastPoint;
         private void gunaButton10_Click(object sender, EventArgs e)
         {
@@ -200,6 +212,11 @@ namespace KAZZIO
         }
 
         private void options1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
         {
 
         }
