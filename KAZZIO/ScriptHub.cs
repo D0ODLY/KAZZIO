@@ -343,21 +343,21 @@ namespace KAZZIO
         private void gunaButton15_Click(object sender, EventArgs e)
         {
             WebClient wb = new WebClient();
-            string Script = wb.DownloadString("LINK");
+            string Script = wb.DownloadString("https://raw.githubusercontent.com/GwnStefano/NexusHub/main/Main");
             module.SendLuaScript(Script);
         }
 
         private void gunaButton21_Click(object sender, EventArgs e)
         {
             WebClient wb = new WebClient();
-            string Script = wb.DownloadString("LINK");
+            string Script = wb.DownloadString("https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua");
             module.SendLuaScript(Script);
         }
 
         private void gunaButton26_Click(object sender, EventArgs e)
         {
             WebClient wb = new WebClient();
-            string Script = wb.DownloadString("LINK");
+            string Script = wb.DownloadString("https://pastebin.com/raw/0eNmtPFT");
             module.SendLuaScript(Script);
         }
 
