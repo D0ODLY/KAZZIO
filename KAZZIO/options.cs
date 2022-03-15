@@ -60,21 +60,6 @@ namespace KAZZIO
             gunaButton3.BringToFront();
         }
 
-        private void bunifuToggleSwitch1_CheckedChanged(object sender, Bunifu.UI.WinForms.BunifuToggleSwitch.CheckedChangedEventArgs e)
-        {
-            if (AAbutton == false)
-            {
-                AAbutton = true;
-                AutoAttachTimer.Enabled = true;
-            }
-            else
-            {
-
-                AAbutton = false;
-                AutoAttachTimer.Enabled = false;
-            }
-        }
-
         private async void AutoAttachTimer_Tick(object sender, EventArgs e)
         {
             if (AAbutton == true)

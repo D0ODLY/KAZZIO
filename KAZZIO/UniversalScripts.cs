@@ -58,18 +58,11 @@ namespace KAZZIO
         private void gunaButton4_Click(object sender, EventArgs e)
         {
             WebClient wb = new WebClient();
-            string Script = wb.DownloadString("LINK");
+            string Script = wb.DownloadString("https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub");
             module.SendLuaScript(Script);
         }
 
         private void gunaButton3_Click(object sender, EventArgs e)
-        {
-            WebClient wb = new WebClient();
-            string Script = wb.DownloadString("LINK");
-            module.SendLuaScript(Script);
-        }
-
-        private void gunaButton2_Click(object sender, EventArgs e)
         {
             WebClient wb = new WebClient();
             string Script = wb.DownloadString("LINK");

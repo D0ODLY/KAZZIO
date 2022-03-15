@@ -224,7 +224,7 @@ namespace KAZZIO
         private void gunaButton2_Click_1(object sender, EventArgs e)
         {
             WebClient wb = new WebClient();
-            string Script = wb.DownloadString("https://raw.githubusercontent.com/x3fall3nangel/RobloxScript/main/Anime%20Battlegrounds%20X.lua");
+            string Script = wb.DownloadString("https://raw.githubusercontent.com/purplethecolor/rblx/main/ABX");
             module.SendLuaScript(Script);
         }
 
@@ -364,7 +364,7 @@ namespace KAZZIO
         private void gunaButton25_Click(object sender, EventArgs e)
         {
             WebClient wb = new WebClient();
-            string Script = wb.DownloadString("LINK");
+            string Script = wb.DownloadString("https://pastebin.com/raw/fXyNSd86");
             module.SendLuaScript(Script);
         }
 
@@ -378,21 +378,21 @@ namespace KAZZIO
         private void gunaButton23_Click(object sender, EventArgs e)
         {
             WebClient wb = new WebClient();
-            string Script = wb.DownloadString("LINK");
+            string Script = wb.DownloadString("https://raw.githubusercontent.com/Kw6m/Subbers-scripts/main/jailbreak");
             module.SendLuaScript(Script);
         }
 
         private void gunaButton28_Click(object sender, EventArgs e)
         {
             WebClient wb = new WebClient();
-            string Script = wb.DownloadString("LINK");
+            string Script = wb.DownloadString("https://raw.githubusercontent.com/AnonymousErrors/hub1/main/main.lua");
             module.SendLuaScript(Script);
         }
 
         private void gunaButton27_Click(object sender, EventArgs e)
         {
             WebClient wb = new WebClient();
-            string Script = wb.DownloadString("LINK");
+            string Script = wb.DownloadString("https://pastebin.com/raw/ne1wGeHb");
             module.SendLuaScript(Script);
         }
     }
