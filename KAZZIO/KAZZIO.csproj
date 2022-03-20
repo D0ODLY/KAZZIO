@@ -107,6 +107,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomThemes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomThemes.Designer.cs">
+      <DependentUpon>CustomThemes.cs</DependentUpon>
+    </Compile>
     <Compile Include="DLLPipes.cs" />
     <Compile Include="FrmInicial.cs">
       <SubType>Form</SubType>
@@ -152,6 +158,9 @@
     <Compile Include="UniversalScripts.Designer.cs">
       <DependentUpon>UniversalScripts.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="CustomThemes.resx">
+      <DependentUpon>CustomThemes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmInicial.resx">
       <DependentUpon>FrmInicial.cs</DependentUpon>
       <SubType>Designer</SubType>

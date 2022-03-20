@@ -82,6 +82,8 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 17;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseDown);
+            this.pictureBox1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseMove);
             // 
             // gunaButton9
             // 
@@ -456,7 +458,7 @@
             this.fastColoredTextBox1.AutoIndentCharsPatterns = "\r\n^\\s*[\\w\\.]+(\\s\\w+)?\\s*(?<range>=)\\s*(?<range>.+)\r\n";
             this.fastColoredTextBox1.AutoScrollMinSize = new System.Drawing.Size(363, 210);
             this.fastColoredTextBox1.BackBrush = null;
-            this.fastColoredTextBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.fastColoredTextBox1.BackColor = System.Drawing.Color.Transparent;
             this.fastColoredTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.fastColoredTextBox1.BracketsHighlightStrategy = FastColoredTextBoxNS.BracketsHighlightStrategy.Strategy2;
             this.fastColoredTextBox1.CharHeight = 14;
@@ -489,7 +491,7 @@
             // 
             // listBox1
             // 
-            this.listBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.listBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
             this.listBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.listBox1.ForeColor = System.Drawing.Color.White;
             this.listBox1.FormattingEnabled = true;
@@ -532,7 +534,7 @@
             this.options1.Location = new System.Drawing.Point(51, 51);
             this.options1.Margin = new System.Windows.Forms.Padding(4);
             this.options1.Name = "options1";
-            this.options1.Size = new System.Drawing.Size(607, 305);
+            this.options1.Size = new System.Drawing.Size(607, 304);
             this.options1.TabIndex = 12;
             this.options1.Load += new System.EventHandler(this.options1_Load);
             // 
